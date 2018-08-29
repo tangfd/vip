@@ -1,0 +1,9263 @@
+@charset "utf-8";
+.wrapper-piclist {
+    width: 100%;
+    overflow: hidden;
+    *position: relative
+}
+
+.site-piclist:before, .site-piclist:after {
+    content: '\0020';
+    display: table
+}
+
+.site-piclist:after {
+    clear: both
+}
+
+.site-piclist {
+    *zoom: 1;
+    overflow: hidden;
+    *position: relative
+}
+
+.site-piclist-auto {
+    height: auto !important;
+    overflow: visible
+}
+
+.site-piclist li {
+    float: left;
+    padding-left: 20px;
+    height: 100%
+}
+
+.site-piclist_pic {
+    position: relative;
+    width: 100%;
+    _overflow: hidden
+}
+
+.site-piclist_pic_link {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+
+.site-piclist_pic_link img {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #f2f2f2 url(//www.iqiyipic.com/common/fix/site/site-nopic.png) no-repeat center center
+}
+
+.wrapper-listTitle {
+    padding: 0 3px;
+    height: 24px;
+    padding-top: 9px;
+    cursor: pointer;
+    position: relative;
+    margin-top: -33px;
+    background: url(//www.iqiyipic.com/common/fix/site/titleBg-normal.png) no-repeat left bottom;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/titleBg-normal.png')
+}
+
+.album-picCon .wrapper-listTitle {
+    padding: 0 3px;
+    height: 66px;
+    padding-top: 9px;
+    cursor: pointer;
+    position: relative;
+    margin-top: -75px;
+    background: url(//www.iqiyipic.com/common/fix/site/album-picBg.png) no-repeat left bottom;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/album-picBg.png')
+}
+
+.wrapper-listTitle-row2 {
+    height: 48px;
+    padding-top: 4px;
+    margin-top: -52px;
+    background: url(//www.iqiyipic.com/common/fix/site/titleBg-line-2v2.png) no-repeat left bottom;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/titleBg-line-2v2.png')
+}
+
+.site-piclist-380240 .wrapper-listTitle {
+    background: url(//www.iqiyipic.com/common/fix/site/titleBg-line1-380.png) no-repeat left bottom;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/titleBg-line1-380.png')
+}
+
+.mod-listTitle {
+    line-height: 24px;
+    color: #fff
+}
+
+.mod-listTitle_left {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.mod-listTitle_right {
+    float: right;
+    font-size: 12px
+}
+
+.site-piclist_info {
+    line-height: 20px;
+    padding-top: 3px;
+    height: 35px
+}
+
+.site-piclist_info_title, .site-piclist_info_describe {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.site-piclist_info_describe {
+    color: #999
+}
+
+.site-title {
+    padding-left: 20px
+}
+
+.site-title_left {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.site-title_right {
+    float: right
+}
+
+.site-title h3 {
+    color: #699f00;
+    float: left;
+    padding-right: 7px;
+    height: 48px;
+    white-space: nowrap
+}
+
+.site-main-side-visible {
+    overflow: visible
+}
+
+.site-main-side .site-title h3 {
+    padding-right: 0;
+    font-size: 0
+}
+
+.site-title h3 a, .site-title h3 a:hover {
+    color: #699f00;
+    display: inline-block;
+    overflow: visible;
+    cursor: pointer
+}
+
+.site-title h3 a span, .site-title h3 span {
+    font-size: 24px
+}
+
+.site-title h3 .title-index {
+    font-size: 24px;
+    color: #699f00
+}
+
+.site-title .icon-more {
+    font-family: "\5FAE\8F6F\96C5\9ED1", "\9ED1\4F53", "CourierNewPSMT";
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 5px;
+    color: #699f00;
+    cursor: pointer
+}
+
+.site-title .icon-more em {
+    font-family: "\9ED1\4F53", "CourierNewPSMT";
+    margin-left: 1px;
+    cursor: pointer
+}
+
+.title-subLinks {
+    font-size: 0;
+    padding-top: 13px;
+    height: 20px;
+    overflow: hidden
+}
+
+.title-subLinks li {
+    padding: 0 16px;
+    line-height: 20px;
+    font-size: 14px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background: url(//www.iqiyipic.com/common/fix/site/divide-dotted-v.png) no-repeat left 6px
+}
+
+.title-subLinks li.firstItem {
+    background: 0
+}
+
+.title-subLinks_child {
+    height: 27px;
+    padding-top: 7px
+}
+
+.title-subLinks_child li {
+    background: 0;
+    padding: 0
+}
+
+.divide-v-dotted {
+    border-left: 1px dotted #ccc;
+    overflow: hidden
+}
+
+.site-piclist-180101 {
+    height: 139px
+}
+
+.site-piclist-180101 li {
+    width: 180px
+}
+
+.site-piclist-180101 .site-piclist_pic {
+    height: 101px
+}
+
+.mod-picList-180101 .site-piclist_pic {
+    width: 180px;
+    height: 101px;
+    margin: 0
+}
+
+.site-piclist-180236 {
+    height: 256px
+}
+
+.site-piclist-180236 li {
+    width: 180px
+}
+
+.site-piclist-180236 .site-piclist_pic {
+    height: 236px
+}
+
+.site-piclist-180236-describe {
+    height: 290px
+}
+
+.site-piclist-180236-describe .mod-listTitle, .site-piclist-180236-describe .site-piclist_info_title a {
+    font-size: 14px
+}
+
+.site-piclist-coming {
+    position: relative;
+    height: 380px
+}
+
+.piclist-coming-line {
+    height: 4px;
+    background-color: #eee;
+    margin: 35px 0 25px 20px;
+    overflow: hidden
+}
+
+.site-piclist-180236-coming {
+    position: absolute;
+    top: -10px;
+    height: 380px
+}
+
+.site-piclist-180236-coming li {
+    height: 380px
+}
+
+.site-piclist-180236-coming .site-piclist_coming-time {
+    line-height: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: 14px
+}
+
+.site-piclist-180236-coming .site-piclist_pic {
+    height: 236px
+}
+
+.site-piclist-180236-coming .mod-listTitle, .site-piclist-180236-coming .site-piclist_info_title a {
+    font-size: 14px
+}
+
+.site-piclist-180240 {
+    height: 278px
+}
+
+.site-piclist-180240 li {
+    width: 180px
+}
+
+.site-piclist-180240 .site-piclist_pic {
+    height: 236px
+}
+
+.site-piclist-380240 {
+    height: 278px
+}
+
+.site-piclist-380240 li {
+    width: 380px
+}
+
+.site-piclist-380240 .site-piclist_pic {
+    height: 240px
+}
+
+.site-piclist-340232 {
+    height: 280px
+}
+
+.site-piclist-340232 li {
+    width: 340px
+}
+
+.site-piclist-340232 .site-piclist_pic {
+    height: 232px
+}
+
+.site-piclist-280106 {
+    min-height: 135px;
+    height: auto !important;
+    height: 135px
+}
+
+.site-piclist-280106 li {
+    width: 280px
+}
+
+.site-piclist-280106 .site-piclist_pic {
+    height: 106px
+}
+
+.site-piclist-280106 .site-piclist_info {
+    height: 27px
+}
+
+.site-piclistUGC-180101 {
+    height: 203px
+}
+
+.site-piclistUGC-180101 .site-piclist_info {
+    border: 1px solid #eaeaea;
+    height: 78px;
+    background-color: #fbf9fa;
+    padding: 0 4px
+}
+
+.site-piclistUGC-180101 .site-piclist_info_title {
+    margin: 4px 0 9px
+}
+
+.site-piclistUGC-180101 .site-piclist_info_upload, .site-piclistUGC-180101 .site-piclist_info_times {
+    font-size: 12px
+}
+
+.site-piclistUGC-180101 .site-piclist_info_times {
+    color: #999
+}
+
+.greenArea {
+    background-color: #85ba4d
+}
+
+.greenArea:hover {
+    background-color: #6dac2a;
+    color: #fff
+}
+
+.orangeArea {
+    background-color: #ff9156
+}
+
+.orangeArea:hover {
+    background-color: #ff7e38;
+    color: #fff
+}
+
+.mod-picList1-380248, .mod-picList1-380248 .site-piclist_pic_link {
+    width: 380px;
+    height: 248px
+}
+
+.mod-picList1-380248 .wrapper-listTitle {
+    height: 40px;
+    margin-top: -40px;
+    cursor: pointer;
+    color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#88000000', endColorstr='#88000000');
+    background: rgba(0, 0, 0, .6);
+    padding: 0 6px 0 0
+}
+
+.mod-picList1-380248 .wrapper-listTitle .site-icons {
+    position: static
+}
+
+.mod-picList1-380248 .mod-listTitle {
+    line-height: 40px
+}
+
+.site-piclist-colorLump {
+    height: 156px
+}
+
+.site-piclist-colorLump .site-piclist_info {
+    height: 45px;
+    padding-top: 0
+}
+
+.site-piclist-colorLump .site-piclist_info a, .site-piclist-colorLump-180101 a {
+    color: #fff;
+    display: block;
+    font-size: 22px;
+    text-align: center
+}
+
+.site-piclist-colorLump .site-piclist_info a {
+    height: 38px;
+    line-height: 36px
+}
+
+.site-piclist-colorLump-180101 a {
+    line-height: 98px
+}
+
+.site-piclist-colorLump-180101 .icon-more {
+    font-family: "\9ED1\4F53";
+    display: inline-block;
+    padding-left: 8px;
+    letter-spacing: -4px
+}
+
+.site-piclist-colorLump .icon-more {
+    font-family: "\5FAE\8F6F\96C5\9ED1", "\9ED1\4F53", "CourierNewPSMT";
+    font-size: 14px;
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 5px;
+    cursor: pointer
+}
+
+.site-piclist-colorLump .icon-more em {
+    font-family: "\9ED1\4F53", "CourierNewPSMT";
+    margin-left: 1px;
+    cursor: pointer
+}
+
+.wrapper-piclist-auto, .wrapper-piclist-auto .site-piclist, .wrapper-piclist-auto .site-piclist li {
+    overflow: visible;
+    height: auto
+}
+
+.site-piclist-180101-noTitle {
+    height: 115px
+}
+
+.site-piclist-16090 {
+    height: 128px;
+    font-size: 14px;
+    margin-left: -20px
+}
+
+.site-piclist-16090 li {
+    width: 160px;
+    overflow: hidden
+}
+
+.site-piclist-16090 .site-piclist_pic {
+    height: 90px
+}
+
+.mod-picList-16090 .site-piclist_pic {
+    width: 160px;
+    height: 90px;
+    margin: 0
+}
+
+.site-tit-play h2 {
+    font-size: 18px;
+    color: #333;
+    height: 38px;
+    padding-top: 8px
+}
+
+.site-piclist-8080 {
+    height: 130px;
+    font-size: 14px;
+    margin-left: -20px
+}
+
+.site-piclist-8080 li {
+    width: 80px
+}
+
+.site-piclist-8080 .site-piclist_pic {
+    height: 80px
+}
+
+.mod-picList-8080 .site-piclist_pic {
+    width: 80px;
+    height: 80px;
+    margin: 0
+}
+
+.site-piclist-80107 {
+    height: 145px;
+    font-size: 14px;
+    margin-left: -20px
+}
+
+.site-piclist-80107 li {
+    width: 80px
+}
+
+.site-piclist-80107 .site-piclist_pic {
+    height: 107px
+}
+
+.wrapper-listTitle-playing {
+    background: url(//www.iqiyipic.com/common/fix/site/titleBg-normal.png) no-repeat left bottom rgba(0, 0, 0, 0);
+    cursor: pointer;
+    height: 24px;
+    margin-top: -33px;
+    padding: 9px 3px 0;
+    position: relative
+}
+
+.site-piclist-16090 .selected .wrapper-listTitle, .site-piclist-16090 li .wrapper-listTitle-playing {
+    display: none
+}
+
+.site-piclist-16090 .selected .wrapper-listTitle-playing {
+    display: block
+}
+
+.site-piclist-16090 .selected .mod-playing-c {
+    text-align: center;
+    display: block;
+    color: #fff
+}
+
+.site-piclist-16090Two {
+    min-height: 128px;
+    height: auto !important;
+    height: 128px;
+    _height: 131px
+}
+
+.site-piclist-16090Two .site-piclist_info_title, .site-piclist-16090Two .site-piclist_info_describe {
+    white-space: normal;
+    word-break: break-all;
+    word-wrap: break-word
+}
+
+.site-piclist-16090Two .site-piclist_info {
+    height: 40px
+}
+
+.site-piclist-16090Two li {
+    overflow: visible
+}
+
+.site-piclist-16090Two .wrapper-listTitle .mod-listTitle_right {
+    width: 155px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: right
+}
+
+.wrapper-play-spread {
+    float: right;
+    background: #508a00;
+    font-size: 12px;
+    color: #fff;
+    width: 34px;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    margin-top: -16px;
+    position: relative
+}
+
+.num-ordinary {
+    background: #e6e6e6;
+    border: 1px solid #cfcfcf;
+    width: 17px;
+    height: 17px;
+    float: left;
+    text-align: center;
+    line-height: 17px;
+    margin: 1px 6px 0 0
+}
+
+.tit-ordinary {
+    float: left;
+    width: 230px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.wrapper-piclist-spread {
+    position: relative
+}
+
+.popularize {
+    position: absolute;
+    right: 0;
+    top: 47px;
+    z-index: 1;
+    width: 160px;
+    background: #fff;
+    font-size: 14px
+}
+
+.popularize .site-piclist_pic {
+    height: 90px
+}
+
+.play-tv-grid {
+    position: relative
+}
+
+.p-arrL, .p-arrR {
+    width: 25px;
+    height: 44px;
+    display: block;
+    position: absolute;
+    top: 24px;
+    z-index: 1;
+    cursor: pointer
+}
+
+.p-arrL {
+    left: 0;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png')
+}
+
+.p-arrR {
+    right: 0;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png')
+}
+
+a:hover .p-arrL {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png) no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png')
+}
+
+a:hover .p-arrR {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png) no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png')
+}
+
+a.disabled .p-arrL, a.disabled:hover .p-arrL {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-v.png) no-repeat;
+    cursor: default;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-v.png')
+}
+
+a.disabled .p-arrR, a.disabled:hover .p-arrR {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-v.png) no-repeat;
+    cursor: default;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-v.png')
+}
+
+.site-piclist-16090 li .trailerCon {
+    background: #efefef;
+    width: 128px;
+    height: 81px;
+    border: 1px solid #e4e4e4;
+    padding: 7px 20px 0 10px;
+    line-height: 24px;
+    font-size: 14px
+}
+
+.item_trailer .icon-viedo-favorites {
+    display: inline-block;
+    vertical-align: top
+}
+
+.item_trailer p {
+    text-align: center
+}
+
+.play-tv-grid .site-piclist-16090-visibleW {
+    width: 680px;
+    height: 128px;
+    overflow: hidden;
+    position: relative
+}
+
+body.qypage-1180 .play-tv-grid .site-piclist-16090-visibleW {
+    width: 880px
+}
+
+.play-tv-grid .site-piclist-16090-visibleW .site-piclist-16090-scrollW {
+    position: absolute
+}
+
+.sub-cancel {
+    cursor: pointer
+}
+
+.site-piclist-16090-visibleW .site-piclist-16090 {
+    position: absolute
+}
+
+.footer-shareBox {
+    background: #fff;
+    height: 238px;
+    padding: 0;
+    border: 1px solid #eee;
+    margin-bottom: 3px
+}
+
+.footer-shareBox-large {
+    height: 305px
+}
+
+.footer-shareBox_iframe {
+    font-size: 0;
+    width: 378px;
+    height: 140px;
+    overflow: hidden
+}
+
+.footer-shareBox-large .footer-shareBox_iframe {
+    height: 180px
+}
+
+.footer-shareBox_QR {
+    text-align: center;
+    font-size: 0
+}
+
+.footer-shareBox_QR a {
+    display: inline-block;
+    margin: 8px 15px 0
+}
+
+.footer-shareBox_QR img {
+    border: 3px solid #aadd80
+}
+
+.site-title-underline {
+    margin-bottom: 20px
+}
+
+.site-title-underline .site-title_left {
+    overflow: visible;
+    border-bottom: 2px solid #333;
+    _height: 40px
+}
+
+.site-title-underline h3 {
+    position: relative;
+    _top: 4px;
+    height: 40px
+}
+
+.site-title-underline .hasBg a {
+    margin-top: 5px
+}
+
+.site-title-underline .hasBg a, .site-title-underline .hasBg a:hover {
+    color: #fff
+}
+
+.site-title-underline .hasBg .title {
+    display: inline-block;
+    width: 100px;
+    padding-left: 20px;
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat 0 -800px;
+    font-size: 26px;
+    line-height: 36px
+}
+
+.site-title-underline .icon-more {
+    padding-left: 5px;
+    font-size: 14px !important;
+    color: #333
+}
+
+.site-title-underline .hasBg .icon-tip {
+    position: absolute;
+    width: 72px;
+    height: 26px;
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) -120px -800px;
+    top: -12px;
+    right: -62px
+}
+
+.site-title-underline .tab-title {
+    position: relative;
+    display: inline;
+    float: left;
+    top: 16px;
+    left: 60px;
+    _top: 20px
+}
+
+.site-title-underline-gray .tab-title {
+    _top: 16px
+}
+
+.site-title-underline .tab-title li {
+    display: inline;
+    float: left;
+    margin-right: 20px
+}
+
+.site-title-underline .tab-title a {
+    display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    border-bottom: 2px solid #333;
+    color: #333;
+    font-size: 16px
+}
+
+.site-title-underline .tab-title a:hover {
+    color: #00d5e7
+}
+
+.site-title-underline .tab-title .selected a {
+    border-bottom: 2px solid #00d5e7;
+    color: #00d5e7
+}
+
+.site-title-underline .tab-title-gray a {
+    border-bottom-color: #eee
+}
+
+.site-title-underline .tab-title-gray a:hover {
+    color: #699f00
+}
+
+.site-title-underline .tab-title-gray .selected a {
+    border-bottom-color: #699f00;
+    color: #699f00
+}
+
+.site-title-underline .site-title_right {
+    height: 40px
+}
+
+.site-title-underline .site-title_right .icon-qiyi {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat 0 -650px
+}
+
+.site-title-underline .site-title_right .icon-pps {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat -42px -650px
+}
+
+.site-title-underline .site-title_right .desc_main {
+    font-size: 14px;
+    color: #666;
+    line-height: 1;
+    _line-height: 1.1
+}
+
+.site-title-underline .site-title_right .desc_sub {
+    font-size: 12px;
+    color: #666;
+    margin-top: 3px
+}
+
+.site-title-underline .site-title_right .desc_sub em {
+    margin-right: 3px
+}
+
+.site-title-underline-gray .site-title_left {
+    border-bottom: 2px solid #eee
+}
+
+.site-title-underline-gray .site-title_left .icon-more {
+    position: relative;
+    bottom: 3px;
+    color: #699f00
+}
+
+.site-title-underline-gray h3 {
+    top: 3px;
+    *top: 5px;
+    _top: 9px
+}
+
+.site-title-underline-gray h3 .title {
+    font-size: 30px
+}
+
+.site-title-underline-right {
+    padding-left: 0;
+    _padding-top: 5px
+}
+
+.site-piclist_info-green {
+    height: 30px;
+    line-height: 30px;
+    padding-top: 0;
+    background-color: #699f00
+}
+
+.site-piclist_info-green a {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.site-piclist_info-green a, .site-piclist_info-green a:hover {
+    color: #fff
+}
+
+.site-piclist_info-green .icon-play {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 2px 0 5px;
+    background: url(//www.iqiyipic.com/common/fix/site/icon-piclist_play.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='//www.iqiyipic.com/common/fix/focus_oneClick/site-focus-btnLeft.png');
+    _background: 0;
+    vertical-align: middle
+}
+
+.site-title-underline .mod-title_appDownload-side200 {
+    right: 0;
+    top: -10px;
+    _top: -5px;
+    _margin-bottom: -4px
+}
+
+.site-title-underline .title-tip {
+    display: inline;
+    float: left;
+    margin: 14px 0 0 5px
+}
+
+.site-title-underline .title-tip i {
+    display: inline;
+    float: left;
+    width: 16px;
+    height: 24px;
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat -200px -800px;
+    cursor: pointer
+}
+
+.site-title-underline .title-tip span {
+    display: inline;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding-left: 5px;
+    background-color: #00d5e7;
+    color: #fff;
+    font-size: 14px
+}
+
+.site-title-underline .title-tip a {
+    display: inline;
+    float: left;
+    height: 24px;
+    padding: 0 10px 0 5px;
+    line-height: 24px;
+    background-color: #00d5e7;
+    color: #fff;
+    font-size: 14px;
+    margin-left: -1px;
+    cursor: pointer
+}
+
+.icon-rankNum-tip {
+    width: 36px;
+    height: 25px;
+    line-height: 25px;
+    background-image: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png);
+    background-position: 0 -860px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 0 0 5px
+}
+
+.site-piclist-180278 {
+    height: 278px
+}
+
+.site-piclist-180278 li {
+    width: 180px
+}
+
+.site-piclist-180278 .site-piclist_pic_link {
+    width: 180px;
+    height: 101px
+}
+
+.site-piclist-180278 .txtList {
+    margin-top: 15px;
+    height: 112px
+}
+
+.site-piclist-180278 .txtList li {
+    padding-left: 0;
+    line-height: 28px;
+    height: 28px
+}
+
+.site-piclist-180316 {
+    height: 316px
+}
+
+.site-piclist-180316 li {
+    width: 180px
+}
+
+.site-piclist-180316 .site-piclist_pic_link {
+    width: 180px;
+    height: 236px
+}
+
+.site-piclist-180316 .site-piclist_info {
+    height: 73px
+}
+
+.site-piclist-18060 li {
+    width: 180px
+}
+
+.site-piclist-18060 .site-piclist_pic_link {
+    height: 60px
+}
+
+.site-piclist-18060 .site-piclist_info {
+    height: 27px
+}
+
+.site-piclist-18060-h li {
+    height: 97px
+}
+
+.pc-piclist-5050 {
+    height: 240px;
+    overflow: hidden
+}
+
+.pc-piclist-5050 li {
+    height: 56px;
+    border-bottom: #eee 1px solid;
+    margin-bottom: 5px;
+    padding-left: 0;
+    margin-left: 20px;
+    float: none
+}
+
+.pc-piclist-5050 .site-piclist_pic {
+    float: left;
+    width: 50px
+}
+
+.pc-piclist-5050 .site-piclist_pic img {
+    height: 50px
+}
+
+.pc-piclist-5050 .site-piclist_info {
+    padding-left: 10px;
+    overflow: hidden;
+    padding-top: 0;
+    height: 50px
+}
+
+.pc-piclist-5050 .site-piclist_info .site-piclist_info_title {
+    line-height: 16px
+}
+
+.pc-piclist-5050 .site-piclist_info .site-piclist_info_describe {
+    font-size: 12px;
+    line-height: 18px
+}
+
+.pc-piclist-5050 .site-piclist_info .site-piclist_info_describe-line2 {
+    font-size: 12px;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden
+}
+
+.site-piclist-180101-describe {
+    height: 157px
+}
+
+.site-piclist-180101-describe .site-piclist_info {
+    height: 53px
+}
+
+.site-piclist-180101-describe .site-piclist_info_describe {
+    font-size: 12px
+}
+
+.site-piclist-380240-describe {
+    height: 315px
+}
+
+.site-piclist-380240-describe .site-piclist_info {
+    height: 72px
+}
+
+.site-piclist-380240-describe .site-piclist_info_describe {
+    font-size: 12px;
+    height: 40px;
+    white-space: normal;
+    word-break: break-all
+}
+
+.mod-collaborate .site-piclist-8080 {
+    margin-left: 0
+}
+
+.mod-collaborate .site-piclist-8080 .site-piclist_pic_link {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #eee
+}
+
+.mod-collaborate .site-piclist-8080 .site-piclist_info {
+    text-align: center
+}
+
+.site-piclist-8050 li {
+    height: 95px;
+    font-size: 12px;
+    width: 80px
+}
+
+.site-piclist-8050 .site-piclist_pic_link {
+    width: 80px;
+    height: 50px
+}
+
+.site-piclist-8050 .site-piclist_info {
+    height: 40px
+}
+
+.site-piclist-8050 .site-piclist_info_title {
+    white-space: normal;
+    height: 40px;
+    word-break: break-all
+}
+
+.adList-180152 {
+    position: relative;
+    *zoom: 1;
+    z-index: 10;
+    height: 152px
+}
+
+.adList-180152 .site-piclist-180101 li {
+    width: 180px;
+    height: 152px
+}
+
+.adList-180152 .site-piclist_info {
+    padding: 0
+}
+
+.adList-180152 .site-piclist_info_title {
+    width: 178px;
+    padding: 0 0 0 2px;
+    height: 30px;
+    line-height: 30px;
+    background: #f3f3f3;
+    font-size: 0
+}
+
+.adList_adImg {
+    float: right
+}
+
+.adList_adImg img {
+    width: 70px;
+    height: 22px;
+    margin: 0;
+    padding: 0;
+    background: 0;
+    margin-top: 4px;
+    vertical-align: top
+}
+
+.adList_adContent {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.adList_adContent a {
+    display: inline-block;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%
+}
+
+.qypage-980 .wrap-srcoll-180236 {
+    _width: 780px
+}
+
+.qypage-1180 .wrap-srcoll-180236 {
+    _width: 980px
+}
+
+.qypage-1380 .wrap-srcoll-180236 {
+    _width: 1180px
+}
+
+.wrap-srcoll-180236 {
+    width: 100%;
+    height: 266px;
+    overflow: hidden;
+    position: relative
+}
+
+.srcoll-180236_visibleW {
+    width: 800px
+}
+
+.qypage-1180 .srcoll-180236_visibleW {
+    width: 1000px;
+    height: 100%
+}
+
+.qypage-1380 .srcoll-180236_visibleW {
+    width: 1200px
+}
+
+.wrap-srcoll-180236 .site-piclist-180236 {
+    margin-left: 0
+}
+
+.wrap-srcoll-180236 .site-piclist-180236 li {
+    padding: 0 20px 0 0
+}
+
+.srcoll-180236_leftBtn, .srcoll-180236_rightBtn {
+    width: 25px;
+    height: 45px;
+    position: absolute;
+    top: 90px;
+    z-index: 1
+}
+
+.srcoll-180236_leftBtn {
+    left: 0
+}
+
+.srcoll-180236_rightBtn {
+    right: 0
+}
+
+.srcoll-180236_leftBtn a, .srcoll-180236_rightBtn a {
+    display: block;
+    height: 100%;
+    width: 100%
+}
+
+.srcoll-180236_leftBtn a {
+    background: url(//www.iqiyipic.com/common/fix/site/scroll_leftBtn.png) no-repeat 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="//www.iqiyipic.com/common/fix/site/scroll_leftBtn.png");
+    _background: 0
+}
+
+.srcoll-180236_rightBtn a {
+    background: url(//www.iqiyipic.com/common/fix/site/scroll_rightBtn.png) no-repeat 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="//www.iqiyipic.com/common/fix/site/scroll_rightBtn.png");
+    _background: 0
+}
+
+.srcoll-180236_leftBtn a:hover, .srcoll-180236_rightBtn a:hover {
+    opacity: .7;
+    filter: alpha(opacity=70);
+    _filter: alpha(opacity=100)
+}
+
+.srcoll_180236_filter {
+    position: absolute;
+    width: 25px;
+    height: 45px;
+    display: block;
+    z-index: 10;
+    background: #fff;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.icon-yc-user {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    line-height: 0;
+    margin-right: -3px;
+    *margin-right: 0;
+    margin-bottom: -3px;
+    _vertical-align: 3px;
+    background: url(//www.iqiyipic.com/common/fix/site/icon-yc-user-png24.png) no-repeat 0 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='//www.iqiyipic.com/common/fix/site/icon-yc-user-png24.png');
+    _background: 0
+}
+
+.mt36-adv {
+    margin-top: 36px
+}
+
+.piclist-180101-cols-7 {
+    width: 100%;
+    height: 149px;
+    overflow: hidden;
+    *position: relative
+}
+
+.piclist-180101-cols-7 .site-title h3 a span, .piclist-180101-cols-7 .site-title h3 span {
+    *font-size: 20px
+}
+
+.piclist-180101-cols-7 .site-title h3 a .icon-more {
+    *font-size: 14px
+}
+
+.site-piclist-15587 {
+    height: 145px
+}
+
+.site-piclist-15587 li {
+    width: 155px
+}
+
+.site-piclist-15587 .site-piclist_pic {
+    height: 87px
+}
+
+.mod-picList-15587 .site-piclist_pic {
+    width: 155px;
+    height: 87px;
+    margin: 0
+}
+
+.site-piclist-15587 .site-piclist_info .desc {
+    overflow: hidden;
+    width: 155px;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.qypage-1180 .site-piclist-15587 li, .qypage-1180 .site-piclist-155203 li {
+    width: 160px
+}
+
+.site-piclist-330210 li {
+    width: 330px
+}
+
+.qypage-1180 .site-piclist-330210 li {
+    width: 340px
+}
+
+.site-piclist-155203 {
+    height: 261px
+}
+
+.site-piclist-155203 li {
+    width: 155px
+}
+
+.site-piclist-155203 .site-piclist_pic {
+    height: 203px
+}
+
+.mod-picList-155203 .site-piclist_pic {
+    width: 155px;
+    height: 203px;
+    margin: 0
+}
+
+.site-piclist-155203 .site-piclist_info .desc {
+    overflow: hidden;
+    width: 155px;
+    font-size: 12px;
+    color: #999;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.site-piclist-13576 {
+    height: auto;
+    margin-left: -12px
+}
+
+.site-piclist-13576 li {
+    width: 135px
+}
+
+.site-piclist-13576 .site-piclist_pic {
+    height: 76px
+}
+
+.mod-picList-13576 .site-piclist_pic {
+    width: 135px;
+    height: 76px;
+    margin: 0
+}
+
+.site-piclist-11070 {
+    margin-left: -30px;
+    font-size: 14px
+}
+
+.site-piclist-11070 {
+    height: auto
+}
+
+.site-piclist-11070 li {
+    width: 110px;
+    padding-left: 32px
+}
+
+.site-piclist-11070 .site-piclist_pic {
+    height: 70px
+}
+
+.site-piclist-11070 .site-piclist_info {
+    height: 52px
+}
+
+.site-piclist-11070 .mod-listTitle {
+    font-family: arial
+}
+
+.notice_item {
+    border-top: 1px dotted #ccc;
+    font-size: 12px;
+    margin-top: 3px
+}
+
+.notice_item .site-piclist_info {
+    padding-top: 0;
+    height: 40px
+}
+
+.site-piclist_info_noticeTitle {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px
+}
+
+.site-piclist_info_noticeTitle a.acolor {
+    color: #999
+}
+
+.notice_listTitle {
+    color: #333;
+    line-height: 18px;
+    font-size: 14px;
+    margin-top: 3px
+}
+
+.noticeRight_ul {
+    height: 278px
+}
+
+.noticeRight_ul li .site-piclist_info {
+    padding-top: 0;
+    height: 40px
+}
+
+.site-piclist-16090-playing .selected .site-piclist_pic_link img {
+    border: 2px solid #80c201;
+    width: 156px;
+    height: 86px
+}
+
+body.qypage-980 .site-piclist-16090-playing .selected .site-piclist_pic_link img {
+    border: 2px solid #80c201;
+    width: 151px;
+    height: 83px
+}
+
+.site-piclist-16090-playing .wrapper-listTitle-playing {
+    margin-top: -35px;
+    z-index: 10
+}
+
+.site-piclist-16090-playing .selected .mod-playing-c {
+    color: #80c201
+}
+
+.mod-playing-black {
+    background: #000;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 156px;
+    height: 86px;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#66000000', endColorstr='#66000000');
+    background: rgba(0, 0, 0, .5);
+    display: none
+}
+
+body.qypage-980 .mod-playing-black {
+    background: #000;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    width: 151px;
+    height: 83px;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#66000000', endColorstr='#66000000');
+    background: rgba(0, 0, 0, .5);
+    display: none
+}
+
+.site-piclist-16090-playing .selected .mod-playing-black {
+    display: block
+}
+
+.site-piclist-130180 {
+    height: 223px
+}
+
+.site-piclist-130180 li {
+    width: 130px
+}
+
+.site-piclist-130180 .site-piclist_pic {
+    height: 180px
+}
+
+.site-piclist-130180-describe {
+    height: 243px
+}
+
+.site-piclist-130180-describe .site-piclist_info {
+    height: 46px;
+    padding-top: 5px
+}
+
+.site-piclist-130180-describe .site-piclist_info_describe {
+    font-size: 12px
+}
+
+.site-piclist-130180-auto {
+    height: auto
+}
+
+.site-piclist-130180-auto li {
+    height: 243px
+}
+
+.site-piclist-220100 {
+    height: 180px
+}
+
+.site-piclist-220100 li {
+    width: 220px
+}
+
+body.qypage-980 .site-piclist-220100 li {
+    width: 230px
+}
+
+.site-piclist-220100 .site-piclist_pic {
+    height: 100px
+}
+
+.wrapper-listTitle-notify {
+    height: 58px;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#75000000', endColorstr='#75000000');
+    background: rgba(0, 0, 0, .5);
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0
+}
+
+.wrapper-listTitle-notify .mod-listTitle {
+    line-height: 17px
+}
+
+.album-notify-pic .notify-main {
+    color: #fff;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 5px;
+    padding-top: 3px
+}
+
+.album-notify-pic .notify-content {
+    width: 145px;
+    color: #fff;
+    white-space: normal
+}
+
+.album-notify-pic .notify-join {
+    position: absolute;
+    right: 6px;
+    bottom: 4px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.album-notify-pic .notify-join a {
+    color: #ff921d
+}
+
+.notify-msgIco, .notify-succIco {
+    background: url(//www.iqiyipic.com/common/fix/site/notify_ico_def.png) no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/notify_ico_def.png');
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: -2px;
+    margin-right: 2px
+}
+
+.album-notify-pic .notify-succIco {
+    padding-top: 10px;
+    background: url(//www.iqiyipic.com/common/fix/site/notify_ico_suc.png) no-repeat;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/notify_ico_suc.png');
+    width: 21px;
+    height: 16px;
+    float: left;
+    margin: 18px 8px 0 6px
+}
+
+.album-notify-pic .notify-main-over .notify-join {
+    color: #999
+}
+
+.album-notify-pic .notify-main-succ .notify-content {
+    float: left;
+    width: 125px;
+    padding-top: 6px;
+    line-height: 19px
+}
+
+.site-piclist-180236 .wrapper-listTitle-notify {
+    width: 180px
+}
+
+.site-piclist .site-piclist_zbz {
+    position: absolute;
+    top: 0;
+    left: 51px;
+    font-size: 0
+}
+
+.site-piclist .site-piclist_zbz .icon-viedo-self {
+    width: 48px;
+    height: 20px;
+    background: url(//pic3.iqiyipic.com/common/20150529/zbz-play.png) no-repeat;
+    background-position: 0 0;
+    margin-left: 4px;
+    margin-top: 4px
+}
+
+.site-piclist .mod-listTitle .mod-listTitle-ht {
+    height: 24px;
+    font-size: 12px
+}
+
+.site-piclist .site-piclist-wdt {
+    width: 215px
+}
+
+.site-piclist .site-piclist-timeDesr {
+    position: absolute;
+    bottom: 13px;
+    right: 112px
+}
+
+.site-piclist .site-piclist-nowDesr {
+    position: absolute;
+    bottom: 15px;
+    right: 0
+}
+
+.site-piclist-130180-auto .intent-item-twoline {
+    height: auto
+}
+
+.intent-item-twoline .site-piclist_info {
+    height: 66px
+}
+
+.intent-item-twoline .site-piclist_info_title {
+    max-height: 40px;
+    _height: 40px;
+    white-space: normal
+}
+
+.mod-page {
+    padding: 20px 0;
+    text-align: center;
+    height: 30px;
+    zoom: normal;
+    font-size: 0
+}
+
+.mod-page a, .mod-page span {
+    display: inline-block;
+    min-width: 33px;
+    _width: 33px;
+    height: 28px;
+    color: #333;
+    line-height: 27px;
+    font-size: 14px;
+    margin: 0 5px;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #e3e3e3;
+    background: #fff
+}
+
+.mod-page a:hover {
+    background: #f2f2f2;
+    color: #333;
+    text-decoration: none
+}
+
+.mod-page .curPage {
+    background: #699e00;
+    border: 1px solid #5f9000;
+    color: #fff;
+    cursor: default
+}
+
+.mod-page a.a1, .mod-page .noPage {
+    width: 58px
+}
+
+.mod-page .noPage {
+    color: #999;
+    cursor: default
+}
+
+@charset "utf-8";
+body, .page-search {
+    font-size: 14px
+}
+
+a:hover, a:active {
+    color: #5aa700;
+    text-decoration: none
+}
+
+.mod_search_footer {
+    margin: 45px 0 55px 0
+}
+
+.searchBox_footer {
+    width: 480px;
+    margin: 0 auto
+}
+
+.search_result_main {
+    display: inline;
+    float: left;
+    width: 100%
+}
+
+.search_result_side {
+    display: inline;
+    float: left;
+    width: 200px;
+    margin-left: -200px;
+    overflow: hidden
+}
+
+.keyword {
+    color: #ff6c00
+}
+
+.qypage-980 {
+    min-width: 1000px
+}
+
+.qypage-1180 .container, .qypage-1180 .site-main {
+    width: 1180px
+}
+
+.qypage-1180 .search_result_main_inner {
+    margin-right: 420px
+}
+
+.qypage-1180 .search_result_side {
+    width: 320px;
+    margin-left: -320px
+}
+
+.search_result_main .wrapper-listTitle-notify {
+    width: 180px
+}
+
+.search_result_main .wrapper-listTitle-notify {
+    bottom: 10px
+}
+
+.search_result_main .album-notify-pic .notify-content {
+    white-space: normal
+}
+
+.search_result_main .notify-main-succ .notify-content {
+    width: 125px
+}
+
+.viedo_lb, .viedo_mid, .viedo_both, .video_both_flow, .viedo_lt {
+    position: absolute;
+    left: 0
+}
+
+.viedo_rb, .viedo_rt {
+    position: absolute;
+    right: 0
+}
+
+.viedo_lb span, .viedo_rb span, .viedo_mid span, .viedo_both span, .viedo_lt span, .viedo_rt span {
+    display: block
+}
+
+.v_bg {
+    position: absolute;
+    background: #000;
+    filter: alpha(opacity=60);
+    opacity: .6;
+    width: 100%;
+    height: 22px;
+    left: 0;
+    top: 0
+}
+
+.v_name, .v_name_l, .v_name_r {
+    position: relative;
+    padding: 0 5px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+    cursor: pointer
+}
+
+.viedo_mid, .viedo_both {
+    width: 100%
+}
+
+.viedo_mid span.v_name {
+    text-align: center;
+    padding: 0
+}
+
+.v_name_l {
+    float: left
+}
+
+.v_name_r {
+    float: right
+}
+
+.viedo_lb, .viedo_rb, .viedo_mid, .viedo_both, .video_both_flow {
+    bottom: 0;
+    _overflow: hidden
+}
+
+.viedo14590 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 151px;
+    height: 96px;
+    background: url(//www.iqiyipic.com/common/fix/public_images/icon14590.png) no-repeat 0 0;
+    cursor: pointer
+}
+
+.bodan11665 {
+    background: url(//www.iqiyipic.com/common/fix/public_images/icon11665.png) no-repeat 0 0;
+    cursor: pointer;
+    display: block;
+    height: 71px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 122px
+}
+
+.video_both_flow {
+    color: #fff;
+    width: 100%;
+    background: rgba(0, 0, 0, .6);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#99000000', endColorstr='#99000000')
+}
+
+.video_both_flowLeft {
+    padding: 22px 0
+}
+
+.video_both_flowRight {
+    padding: 18px 0
+}
+
+.video_both_flowCenter {
+    padding: 10px 0;
+    *filter: none;
+    *filter: alpha(opacity=80);
+    *background: #000
+}
+
+@media screen and (min-width: 0\0
+) {
+    .video_both_flow {
+        filter: none
+    }
+}
+
+.video_both_flow h1 {
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.video_brooch {
+    display: none;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 5px;
+    right: 5px;
+    z-index: 21;
+    cursor: pointer
+}
+
+.video_brooch-default {
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat -200px -580px
+}
+
+.video_brooch-confirm {
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat -200px -600px
+}
+
+.videoTip {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    background: #518900;
+    display: block;
+    text-align: center
+}
+
+.videoTip_right {
+    right: 0
+}
+
+.videoTip_color {
+    color: #76a700
+}
+
+.video_delete {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    right: 3px;
+    background: url(//www.iqiyipic.com/common/fix/personalCenter_new_images/pc_icon.png) no-repeat -164px 0
+}
+
+.video_spread {
+    display: block;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #518900;
+    text-align: center;
+    color: #fff
+}
+
+.grade-g, .grade-012, .grade-12, .grade-18 {
+    display: block;
+    height: 11px;
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    background: url(//www.iqiyipic.com/common/fix/public_images/icon_common_new.png) no-repeat 0 -552px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1
+}
+
+.grade-g {
+    width: 11px;
+    background-position: 0 -552px
+}
+
+.grade-012 {
+    width: 22px;
+    background-position: 0 -577px
+}
+
+.grade-12 {
+    width: 20px;
+    background-position: 0 -601px
+}
+
+.grade-18 {
+    width: 20px;
+    background-position: 0 -626px
+}
+
+.video_sequence {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #7cae00;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px
+}
+
+.video_numberone {
+    width: 42px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 22px
+}
+
+a .viedo_vip, a .viedo_1080, a .video_dj, a .video_dj-b, a .icon-viedo-free {
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10.png) no-repeat;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+a .viedo_1080 {
+    background-position: -180px -530px
+}
+
+a .viedo_vip {
+    background-position: -130px -530px
+}
+
+a .video_dj {
+    background-position: -80px -530px
+}
+
+a .video_dj-b {
+    width: 72px;
+    height: 72px;
+    background-position: 0 -530px
+}
+
+a .icon-viedo-free {
+    width: 42px;
+    height: 42px;
+    background-position: -145px -1200px;
+    margin-right: 0
+}
+
+.cqBg {
+    display: none !important
+}
+
+.list_block1 p.video_dj {
+    margin-right: 0;
+    line-height: 0;
+    position: absolute
+}
+
+.album_zhishu {
+    display: inline-block;
+    width: 23px;
+    height: 12px;
+    background: url(//www.iqiyipic.com/common/fix/site/album_zhishu.jpg) no-repeat;
+    margin-left: 5px;
+    vertical-align: -2px;
+    *vertical-align: 2px
+}
+
+.viedo_lt, .viedo_rt {
+    top: 0
+}
+
+.icon-vip-zx, .icon-vip-fufei, .icon-vip-quan {
+    width: 34px;
+    height: 17px;
+    *height: 19px;
+    margin: 4px 0 0 4px;
+    text-indent: -20000px;
+    overflow: hidden
+}
+
+.icon-vip-zx {
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/vip-zx.png) no-repeat
+}
+
+.icon-vip-fufei {
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/vip-ff.png) no-repeat
+}
+
+.icon-vip-quan {
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/vip-yq.png) no-repeat
+}
+
+.viedo_lb .icon-vInfo, .viedo_rt .icon-vInfo, .viedo_rb .icon-vInfo {
+    height: 16px;
+    padding: 0 5px;
+    border-radius: 3px;
+    font: 12px/15px Tahoma, Helvetica, Arial, "\5FAE\8F6F\96C5\9ED1", sans-serif;
+    color: #fff;
+    *line-height: 16px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, .6);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled='true', startColorstr='#99000000', endColorstr='#99000000')
+}
+
+:root .viedo_lb .icon-vInfo, :root .viedo_rt .icon-vInfo, :root .viedo_rb .icon-vInfo {
+    filter: none
+}
+
+.viedo_lb {
+    *padding-bottom: 4px
+}
+
+.viedo_lb .icon-vInfo {
+    margin: 0 0 4px 4px;
+    float: left
+}
+
+.viedo_rt .icon-vInfo {
+    margin: 4px 4px 0 0;
+    float: right
+}
+
+.viedo_rb .icon-vInfo {
+    margin: 0 4px 4px 0;
+    float: right
+}
+
+.viedo_rt .icon-paike {
+    width: 37px;
+    height: 21px;
+    background: #699f00;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px
+}
+
+.icon-live, .icon-live-fore {
+    height: 17px;
+    padding: 0 5px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+    color: #fff
+}
+
+.icon-live {
+    background-color: #ff6d34
+}
+
+.icon-live-fore {
+    background-color: #9d9d9d
+}
+
+@media \0screen\,screen\9 {
+    .icon-live, .icon-live-fore {
+        line-height: 19px;
+        *line-height: 17px
+    }
+}
+
+.viedo_lt .icon-member-box {
+    margin: 4px 0 0 4px
+}
+
+.mod_search_result .viedo_lt .icon-member-box img, .page-list .viedo_lt .icon-member-box img {
+    width: auto;
+    height: auto;
+    background: 0
+}
+
+.addToDesk_tips2 {
+    position: absolute;
+    left: -60px;
+    bottom: 26px;
+    z-index: -1;
+    width: 182px;
+    min-height: 30px;
+    _height: 30px;
+    background: #fdf5ee;
+    padding: 4px 14px 4px 14px;
+    line-height: 21px;
+    border: 1px solid #f6bf90;
+    color: #666;
+    border-radius: 5px;
+    display: none;
+    text-align: left
+}
+
+.addToDesk_tips2 .arrow_bottom2 {
+    display: block;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    position: absolute;
+    border: 7px dashed transparent;
+    border-top: 7px solid #f6bf90;
+    left: 84px;
+    bottom: -14px;
+    _bottom: -14px;
+    overflow: visible
+}
+
+.addToDesk_tips2 .arrow_bottom2 .arrow_bottom2A {
+    display: block;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    position: absolute;
+    border: 6px dashed transparent;
+    border-top: 6px solid #fdf5ee;
+    left: -6px;
+    bottom: -5px;
+    _bottom: -7px;
+    _background: 0;
+    overflow: visible
+}
+
+.popup-jujiBox {
+    width: 510px;
+    position: relative;
+    z-index: 2000;
+    border: 5px solid #d9d9d9
+}
+
+.popup-juji {
+    width: 488px;
+    border: 1px solid #CCC;
+    background: #FFF;
+    z-index: 2;
+    padding: 15px 5px 15px 15px
+}
+
+.popup-juji h3 {
+    line-height: 22px;
+    color: #000;
+    float: left
+}
+
+.cloBtn-juji {
+    position: absolute;
+    top: 25px;
+    right: 25px
+}
+
+.popup-jujiNav {
+    padding: 10px 0;
+    width: 460px;
+    overflow: hidden;
+    position: relative;
+    zoom: 1;
+    *padding: 0 0 10px 0
+}
+
+.popup-juji-tab {
+    margin-left: -10px;
+    position: relative;
+    zoom: 1
+}
+
+.popup-juji-tab li {
+    float: left;
+    border-bottom: 1px solid #d9d9d9;
+    height: 17px;
+    padding-top: 2px
+}
+
+.popup-juji-tab li a span {
+    border-left: 1px solid #d9d9d9;
+    display: inline-block;
+    padding: 0 9px;
+    height: 12px;
+    line-height: 12px;
+    *height: 16px;
+    *line-height: 16px;
+    cursor: pointer
+}
+
+.popup-juji-tab a {
+    height: 20px;
+    text-decoration: none;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    position: relative;
+    margin-bottom: -7px;
+    vertical-align: top;
+    *vertical-align: normal
+}
+
+.popup-juji-tab .selected a, .popup-juji-tab li a:hover {
+    color: #518900;
+    background: url("//www.iqiyipic.com/common/fix/play_new_images/juji_Arrow.png") bottom center no-repeat
+}
+
+.popup-juji-list li {
+    float: left;
+    width: 32px;
+    height: 28px
+}
+
+.popup-juji-list li a {
+    width: 25px;
+    height: 21px;
+    line-height: 21px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    color: #000;
+    background: #fafafa
+}
+
+.popup-juji-list .selected a, .popup-juji-list li a:hover {
+    background: #5da100;
+    border: 1px solid #5da100;
+    color: #FFF;
+    text-decoration: none
+}
+
+.poup-jujiBtn {
+    padding-top: 16px
+}
+
+.poup-jujiBtn .EB6100 {
+    color: #eb6100
+}
+
+.poup-jujiBtn .pdL118 {
+    margin: 0 6px 0 158px;
+    position: relative
+}
+
+.poup-jujiBtn .gxBg {
+    left: 45px;
+    top: 1px
+}
+
+.poup-jujiBtn .gxBg, .poup-jujiBtn .gxBg .gxNum, .poup-jujiBtn .gxBg em {
+    display: block;
+    height: 14px;
+    position: absolute;
+    z-index: 15
+}
+
+.poup-jujiBtn .gxBg .gxNum {
+    background: url("//www.iqiyipic.com/common/fix/index_images/tipknow.png") no-repeat scroll -130px 0;
+    left: 0;
+    overflow: hidden;
+    top: 0;
+    width: 6px;
+    z-index: 16
+}
+
+.poup-jujiBtn .gxBg em {
+    background: url("//www.iqiyipic.com/common/fix/index_images/tipknow.png") no-repeat scroll right 0;
+    color: #FFF;
+    font: 11px/14px arial;
+    left: 5px;
+    padding-right: 5px;
+    top: 0;
+    z-index: 17;
+    vertical-align: top
+}
+
+.popup-jujiBG {
+    display: none
+}
+
+.play_btn .download56, .play_btn .download56_disable {
+    background: url(//www.iqiyipic.com/common/fix/album_images/albumBtn56_144.png) no-repeat;
+    width: 38px;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    padding-left: 18px;
+    text-align: center
+}
+
+.play_btn .download56 {
+    background-position: 0 0
+}
+
+.play_btn .download56:hover {
+    background-position: 0 -48px
+}
+
+.play_btn .download56_disable, .play_btn .download56_disable:hover {
+    background-position: 0 -96px;
+    color: #cccaca
+}
+
+.btn-albumPlay {
+    text-align: center;
+    margin-top: 17px
+}
+
+.gasket520Box {
+    width: 520px;
+    width: 0 \9;
+    height: 0 \9;
+    *width: 0;
+    *height: 0;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+:root .popup-juji-tab li a span {
+    *height: 16px;
+    *line-height: 16px
+}
+
+.np_btn {
+    display: inline-block;
+    background: url(//www.iqiyipic.com/common/fix/integral_images/btn.png) no-repeat;
+    text-align: center;
+    font-family: "\5FAE\8F6F\96C5\9ED1"
+}
+
+a.btn_close {
+    width: 12px;
+    height: 12px;
+    background-position: -299px -1px
+}
+
+a.btn_close:hover {
+    width: 12px;
+    height: 12px;
+    background-position: -299px -23px
+}
+
+.mod_album_lists {
+    margin-top: 0
+}
+
+.mod_album_lists-first {
+    margin-top: 0
+}
+
+.mod_album_lists ul {
+    margin-left: -10px;
+    position: relative
+}
+
+.mod_album_lists .choose-status ul {
+    margin-left: 0
+}
+
+.mod-album_tab .choose-status a {
+    margin-right: 0
+}
+
+.dsj-status .mod-album_tab .choose-status .selected a {
+    background: #699f00
+}
+
+.mod_album_lists .album_item {
+    position: relative;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    height: 42px;
+    z-index: 1;
+    border-radius: 3px
+}
+
+.mod_album_lists .album_item a {
+    display: inline-block;
+    width: 55px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    background: url(//www.iqiyipic.com/common/fix/search_images/album_bg.png) repeat-x;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+    text-align: center
+}
+
+.dsj-status .mod_album_lists .album_item {
+    margin-left: 12px
+}
+
+.dsj-status .mod_album_lists .album_item a {
+    display: block;
+    width: 55px;
+    height: 40px;
+    border: 1px solid #e1e1e1;
+    background: #fbfbfb;
+    line-height: 40px;
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 3px
+}
+
+.choose-block .icon-juji-new, .mod_album_lists .icon-juji-new {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: -8px;
+    right: -5px
+}
+
+.choose-block .icon-yugao-new {
+    height: 20px;
+    position: absolute;
+    right: -5px;
+    top: -8px;
+    width: 20px
+}
+
+.mod_album_lists .album_item .icon-item-yu {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/search_result_20140603.png) no-repeat -124px -60px;
+    top: -8px;
+    right: -8px
+}
+
+.mod_album_lists-latest {
+    margin-top: 0
+}
+
+.mod_album_lists-latest .latest {
+    color: #666;
+    line-height: 40px
+}
+
+.mod_album_lists-latest .album_item {
+    margin-bottom: 0
+}
+
+.mod-album_tab {
+    margin-bottom: 10px
+}
+
+.mod-album_tab a {
+    border: 1px solid #ececec;
+    border-radius: 3px;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    margin-right: 14px;
+    text-align: center;
+    width: 83px;
+    font-size: 14px
+}
+
+.mod-album_tab .choose-status a {
+    margin-bottom: 0
+}
+
+.mod-album_tab .selected, .mod-album_tab a:hover {
+    color: #7fb52b;
+    background: #f7f7f7
+}
+
+.mod_album_lists .selected a, .mod_album_lists .album_item a:hover, .dsj-status .mod_album_lists .album_item.selected a {
+    border: 1px solid #77b500;
+    background: #6fa900;
+    background: -moz-linear-gradient(top, #7ab800, #69a000);
+    background: -o-linear-gradient(top, #7ab800, #69a000);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#7ab800), to(#69a000));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff7ab800', endColorstr='#ff69a000', GradientType=0);
+    text-decoration: none;
+    color: #fff
+}
+
+.mod_album_lists .disabled a, .mod_album_lists .disabled a:hover {
+    border: 1px solid #e9e9e9;
+    background-image: none;
+    background-color: #f5f5f5;
+    color: #999;
+    cursor: not-allowed
+}
+
+.mod_album_lists .album_item-long a {
+    width: 122px
+}
+
+.mod_album_lists .album_tab {
+    float: right;
+    *margin-top: 10px;
+    _margin-top: 0
+}
+
+.mod_album_lists .album_item_half a {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 313px;
+    padding: 0 10px;
+    text-align: left;
+    border-radius: 3px
+}
+
+.mod_album_lists .album_item_half-tc a {
+    width: 313px;
+    padding: 0 10px;
+    text-align: center
+}
+
+.arrow_tip {
+    position: relative;
+    display: inline-block;
+    top: 3px;
+    width: 13px;
+    height: 10px;
+    cursor: pointer;
+    margin-left: -2px
+}
+
+.arrow_tip_inner, .arrow_tip_outer {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    border: 6px dashed transparent
+}
+
+.arrow_tip .arrow_tip_inner {
+    border-top: 6px solid #f2f2f2;
+    top: -2px;
+    z-index: 1
+}
+
+.arrow_tip .arrow_tip_outer {
+    border-top: 6px solid #676767
+}
+
+.arrow_tip-open {
+    top: -2px
+}
+
+.album-msg .openBlock .arrow_tip-open .arrow_tip_inner, .showMoreText .openBlock .arrow_tip-open .arrow_tip_inner {
+    border-top: 6px dashed transparent;
+    border-bottom: 6px solid #fff;
+    top: 2px
+}
+
+.album-msg .openBlock .arrow_tip-open .arrow_tip_outer, .showMoreText .openBlock .arrow_tip-open .arrow_tip_outer {
+    border-top: 6px dashed transparent;
+    border-bottom: 6px solid #699f00
+}
+
+.watch-jilu {
+    border: 1px solid #d7eba9;
+    background: #fcfff5;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+    padding-left: 10px;
+    margin-bottom: 15px
+}
+
+.album-lt .choose-block {
+    overflow: visible
+}
+
+.choose-block {
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+
+.album_item_half-tc .arrow_tip .arrow_tip_inner {
+    border-top: 6px solid #fbfbfb
+}
+
+.album_item_half-tc a:hover .arrow_tip .arrow_tip_inner {
+    border-top: 6px solid #80be09
+}
+
+.album_item_half-tc a:hover .arrow_tip .arrow_tip_outer {
+    border-top: 6px solid #fff
+}
+
+.album_item_half-tc .arrow_tip-open {
+    top: -3px
+}
+
+.album_item_half-tc .arrow_tip-open .arrow_tip_outer {
+    border-bottom: 6px solid #676767;
+    border-top: 6px dashed transparent
+}
+
+.album_item_half-tc .arrow_tip-open .arrow_tip_inner {
+    border-bottom: 6px solid #fbfbfb;
+    top: 2px;
+    border-top: 6px dashed transparent
+}
+
+.album_item_half-tc a:hover .arrow_tip-open .arrow_tip_inner {
+    border-bottom: 6px solid #80be09;
+    border-top: 6px dashed transparent
+}
+
+.album_item_half-tc a:hover .arrow_tip-open .arrow_tip_outer {
+    border-bottom: 6px solid #fff;
+    border-top: 6px dashed transparent
+}
+
+.choose-status li {
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    width: 70px
+}
+
+.choose-status li a {
+    background: #f6f6f6;
+    border: 1px solid #dfdfdf;
+    color: #699f00;
+    float: left;
+    width: 68px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px
+}
+
+.choose-status li.selected a {
+    background: #699f00;
+    border: 1px solid #629500;
+    color: #fff;
+    float: left
+}
+
+.choose-month {
+    width: 440px;
+    padding-top: 2px;
+    font-size: 14px
+}
+
+.choose-month a {
+    margin-right: 2px;
+    display: inline-block
+}
+
+.choose-month a.selected {
+    color: #699f00
+}
+
+.choose-years {
+    width: 98px
+}
+
+.choose-years-block {
+    position: relative;
+    margin-right: 20px;
+    font-size: 12px;
+    z-index: 2
+}
+
+.choose-years .choose-y-hd {
+    color: #699f00;
+    width: 66px;
+    height: 20px;
+    padding-left: 10px;
+    line-height: 20px;
+    background: #f2f2f2;
+    border: 1px solid #dfdfdf
+}
+
+.choose-years .years-txt {
+    margin-right: 3px
+}
+
+.mod-album_tab_num {
+    margin-bottom: 5px;
+    margin-right: -15px;
+    *position: relative
+}
+
+.choose-y-bd {
+    position: absolute;
+    top: 21px;
+    left: 0;
+    z-index: 2
+}
+
+.choose-y-bd ul {
+    border: 1px solid #dfdfdf;
+    border-top: 0;
+    width: 76px;
+    margin-left: 0
+}
+
+.choose-y-bd ul li a {
+    display: block;
+    border-top: 1px solid #dfdfdf;
+    padding-left: 10px;
+    background: #f2f2f2;
+    height: 20px;
+    line-height: 20px
+}
+
+.choose-y-bd ul li a:hover {
+    background: #fff;
+    color: #699f00
+}
+
+.choose-status .list-cho-block a {
+    border-radius: 3px 0 0 3px
+}
+
+.choose-status .pic-cho-block a {
+    border-radius: 0 3px 3px 0
+}
+
+.mod-media {
+    margin-bottom: 20px
+}
+
+.mod-media_hd {
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    width: 64px;
+    height: 64px;
+    overflow-y: hidden
+}
+
+.mod-media_body {
+    height: 64px;
+    overflow: hidden
+}
+
+.mod-media_body .media_title {
+    line-height: 1.2;
+    _padding-top: 1px
+}
+
+.u2 li {
+    float: left;
+    width: 49.9%;
+    font-size: 14px
+}
+
+.sub-a-mlr5 a {
+    margin: 0 5px
+}
+
+.sub-a-mlr5 li {
+    line-height: 25px;
+    font-size: 14px
+}
+
+.album-container .mod-bd {
+    margin-top: 20px
+}
+
+.fenji-con {
+    font-size: 12px;
+    margin-top: 0
+}
+
+.fenji-con dt {
+    font-size: 14px;
+    padding: 5px 0
+}
+
+.fenji-con dd {
+    line-height: 22px;
+    text-indent: 2em;
+    color: #666
+}
+
+.fenji-con .fenjiList {
+    margin-top: 8px
+}
+
+.fenji-con .fenjiList li {
+    float: left;
+    width: 49%;
+    line-height: 22px
+}
+
+.fenji-con .fenjiList span {
+    margin-right: 10px;
+    float: left
+}
+
+.fenji-con .fenjiList li a {
+    width: 272px;
+    float: left
+}
+
+.jujiIco {
+    background: url(//www.iqiyipic.com/common/fix/search_images/search_result_20140603.png) no-repeat -148px -60px;
+    width: 15px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 6px;
+    _vertical-align: -4px
+}
+
+.search-piclist-100100 {
+    margin-left: -16px
+}
+
+.search-piclist-100100 li {
+    height: 100px;
+    width: 100px;
+    padding-left: 16px;
+    margin-top: 20px
+}
+
+.search-piclist-100100 .search-piclist_colorLump {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    background-color: #7fb52b;
+    color: #fff;
+    text-align: center
+}
+
+.search-piclist-100100 .search-piclist_colorLump:hover {
+    color: #fff;
+    background-color: #7fb52b
+}
+
+.search-piclist-100100 .search-piclist_colorLump:active {
+    color: #fff;
+    background-color: #5c8c13
+}
+
+.search-piclist-100100 .search-piclist_colorLump i {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+}
+
+.album-picCon {
+    position: relative;
+    width: 980px;
+    height: 240px;
+    overflow: hidden;
+    text-align: center;
+    background: #e9e9e9
+}
+
+.album-picCon .wrapper-listTitle, .album-picCon .gx-con-r, .album-picCon .album-playArea, .album-picCon .vipLook-pic {
+    text-align: left
+}
+
+.album-imgs li {
+    float: left;
+    width: 980px
+}
+
+.album-picCon img {
+    height: 240px
+}
+
+.album-picCon-onePic {
+    width: 980px;
+    height: auto
+}
+
+.album-picCon-onePic img {
+    width: auto;
+    height: auto
+}
+
+.album-hdPic {
+    margin-bottom: 10px
+}
+
+.album-picCon .wrapper-listTitle {
+    background-repeat: repeat-x
+}
+
+.album-picCon .mod-listTitle_right {
+    padding-bottom: 12px
+}
+
+.album-picCon .gx-con-r {
+    position: absolute;
+    color: #fff;
+    right: 10px;
+    bottom: 8px
+}
+
+.album-picCon .fenshu-r {
+    font: 30px/30px Georgia;
+    color: #f15a24;
+    margin-left: 15px
+}
+
+.album-playArea {
+    position: absolute;
+    left: 10px;
+    bottom: 8px;
+    color: #fff
+}
+
+.album-playArea dl {
+    float: left;
+    margin-top: 12px
+}
+
+.album-playArea .playBtn {
+    margin-top: 10px;
+    background: url(//www.iqiyipic.com/common/fix/album_images/album-playBtn.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src='//www.iqiyipic.com/common/fix/album_images/album-playBtn.png');
+    _background: 0;
+    width: 47px;
+    height: 40px;
+    float: left;
+    margin-right: 15px;
+    display: inline
+}
+
+.album-playArea .playBtn:hover {
+    background: url(//www.iqiyipic.com/common/fix/album_images/album-playBtn-h.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=image, src='//www.iqiyipic.com/common/fix/album_images/album-playBtn-h.png');
+    _background: 0
+}
+
+.album-playArea dt {
+    font-size: 18px
+}
+
+.album-playArea dt .album-hd-txt {
+    font-size: 14px;
+    margin-left: 25px
+}
+
+.album-playArea dd {
+    font-size: 12px;
+    color: #999
+}
+
+.album-playArea dd em {
+    color: #7ed700;
+    font: 30px/30px Georgia
+}
+
+.album-playArea .qishuTxt {
+    color: #7ed700
+}
+
+.album-msg {
+    border: 1px solid #eee;
+    padding: 10px
+}
+
+.msg-bd {
+    position: relative
+}
+
+.openBlock {
+    position: absolute;
+    right: 10px;
+    bottom: 0
+}
+
+.album-msg .openBlock {
+    position: static;
+    display: inline-block
+}
+
+.openBlock .arrow_tip .arrow_tip_inner {
+    border-top: 6px solid #fff
+}
+
+.openBlock .arrow_tip .arrow_tip_outer {
+    border-top: 6px solid #699f00
+}
+
+.msg-hd {
+    color: #999
+}
+
+.msg-hd-lt {
+    width: 800px
+}
+
+.msg-hd-lt ul li {
+    float: left;
+    line-height: 22px
+}
+
+.msg-hd-lt ul li.li-mini {
+    width: 140px;
+    margin-right: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.msg-hd-lt ul li.li-large {
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.msg-hd-lt .mini-block {
+    line-height: 22px;
+    margin-right: 40px
+}
+
+.msg-hd-lt .large-block {
+    line-height: 22px;
+    margin-right: 40px
+}
+
+.msg-hd-lt .mini-block .li-mini {
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.msg-hd-lt .mini-block .li-large {
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.msg-hd-rt {
+    text-align: right;
+    line-height: 20px
+}
+
+.gridCtrol {
+    float: right
+}
+
+.juji-Btn-ft {
+    text-align: center;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 28px;
+    padding-left: 20px;
+    width: 92.5%
+}
+
+.site-piclist-16090-twoLine .juji-Btn-ft {
+    text-align: center;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-left: 14px;
+    padding-left: 0;
+    width: 97.5%
+}
+
+.juji-Btn-all {
+    height: 30px;
+    display: block
+}
+
+.juji-Btn-ft .arrow_tip-open {
+    top: -4px
+}
+
+.juji-Btn-ft .arrow_tip-open .arrow_tip_outer {
+    border-bottom: 6px solid #676767;
+    border-top: 6px dashed transparent
+}
+
+.juji-Btn-ft .arrow_tip-open .arrow_tip_inner {
+    border-bottom: 6px solid #f2f2f2;
+    border-top: 6px dashed transparent;
+    top: 2px
+}
+
+.sub-a-mlr5 {
+    margin-bottom: 10px
+}
+
+.album-fenjiMore a {
+    display: block;
+    font-size: 12px;
+    width: 114px;
+    padding-left: 10px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #e9e9e9;
+    border-radius: 3px;
+    color: #699f00;
+    margin-top: 15px;
+    background: #f6f6f6
+}
+
+.album-fenjiMore a:hover {
+    background: #699f00;
+    color: #fff;
+    border-radius: 3px;
+    border: 1px solid #699f00
+}
+
+.jujiIco-small {
+    float: left;
+    background: url(//www.iqiyipic.com/common/fix/album_images/jujiIco-small.png) no-repeat;
+    width: 3px;
+    height: 3px;
+    margin: 10px 5px 0 0
+}
+
+.album-tv-grid {
+    position: relative
+}
+
+.album-tv-grid .site-piclist-16090-visibleW {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    width: 680px
+}
+
+.album-tv-grid .site-piclist-16090-scrollW {
+    position: absolute
+}
+
+.album-tv-grid .site-piclist-16090-visibleW .site-piclist-16090 {
+    position: absolute
+}
+
+.choose-month_new {
+    padding-top: 10px;
+    font-family: "\5FAE\8F6F\96C5\9ED1";
+    font-size: 14px
+}
+
+.choose-years_new {
+    font-family: "\5FAE\8F6F\96C5\9ED1"
+}
+
+.choose-years_new a {
+    float: left;
+    width: 83px;
+    text-align: center;
+    height: 24px;
+    line-height: 25px;
+    border-radius: 3px;
+    border: 1px solid #ececec;
+    margin-right: 14px;
+    font-size: 12px;
+    margin-bottom: 10px
+}
+
+.choose-years_new a.selected {
+    background: #f7f7f7;
+    color: #699f00
+}
+
+.choose-years_new .choose-years-all {
+    float: left
+}
+
+.choose-years_new .choose-years-bd {
+    height: 36px;
+    overflow: hidden
+}
+
+.choose-years_new .choose-years-bd-open {
+    height: auto
+}
+
+.choose-years_new .choose-years-list {
+    width: 396px
+}
+
+.choose-years_new .years-downArr-ico {
+    background: url(//www.iqiyipic.com/common/fix/album_images/album-arr.png) no-repeat;
+    width: 32px;
+    height: 26px;
+    display: block;
+    border: 0;
+    margin-right: 0
+}
+
+.choose-years_new .years-downArr-ico:hover {
+    background-position: 0 -54px
+}
+
+.choose-years_new .choose-years-bd-open .years-downArr-ico {
+    background-position: 0 -27px
+}
+
+.choose-years_new .choose-years-bd-open .years-downArr-ico:hover {
+    background-position: 0 -82px
+}
+
+.choose-month_new a {
+    width: 52px;
+    float: left
+}
+
+.choose-month_new a.selected {
+    color: #699f00
+}
+
+.graphics-type {
+    margin-right: -15px;
+    position: relative
+}
+
+.graphics-type .site-piclist-16090 {
+    margin-left: 0
+}
+
+.graphics-type-bd {
+    width: 333px;
+    height: 90px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+    display: inline;
+    float: left
+}
+
+.graphics-type-lt {
+    width: 160px
+}
+
+.graphics-type-rt {
+    width: 162px;
+    font-size: 12px;
+    color: #999;
+    padding: 8px 0 0 10px;
+    height: 82px;
+    border-right: 1px solid #ebebeb;
+    background: #f2f2f2
+}
+
+.graphics-type-rt h3 {
+    font-size: 14px;
+    height: 36px;
+    overflow: hidden
+}
+
+.type-rt-peo {
+    margin-top: 2px;
+    width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.graphics-type-rt .playcount {
+    margin-top: 3px
+}
+
+.graphics-type-rt .icon-play-bgGray {
+    margin-right: 0
+}
+
+.choose-block .wrapper-piclist, .choose-block .site-piclist {
+    overflow: visible
+}
+
+.album_dingyueBox {
+    padding-top: 10px;
+    background: #f5f5f5;
+    border: 1px solid #ebebeb
+}
+
+.album_dingyueBox .uploadUser-img {
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    display: block;
+    float: left
+}
+
+.album_dingyueBox .mod-zy-dingyue-hd {
+    width: 200px;
+    padding: 0 10px 0 8px;
+    height: 62px;
+    float: right
+}
+
+.album_dingyueBox .mod-zy-dingyue-hd h2 {
+    width: 100px
+}
+
+.album_dingyueBox .p-item-one {
+    width: 100px
+}
+
+.album_dingyueBox .mod-zy-dingyue-hd .mod-zy-hd2 {
+    margin: 5px 0 7px 0;
+    font-size: 12px
+}
+
+.album_dingyueBox .youhua_dingyue .btn-care {
+    border-radius: 3px;
+    background: #6a9e1b;
+    border: 1px solid #6a9e1b;
+    width: 46px
+}
+
+.album_dingyueBox .youhua_dingyue .btn-care:hover {
+    background: #7fb52b;
+    border: 1px solid #7fb52b;
+    color: #fff
+}
+
+.album_dingyueBox .youhua_dingyue .btn-care-cared {
+    background: #b1b1b1;
+    border: 1px solid #a6a6a6;
+    color: #fff
+}
+
+.album_dingyueBox .youhua_dingyue .btn-care-cared:hover, .album_dingyueBox .youhua_dingyue .btn-care-update, .album_dingyueBox .youhua_dingyue .btn-care-update:hover {
+    background: #f2f2f2;
+    border: 1px solid #dfdfdf;
+    color: #699f00
+}
+
+.album-byear-frame {
+    width: 680px;
+    height: 26px
+}
+
+.album-byear-frame .active a {
+    color: #7fb52b
+}
+
+.album-byear-all {
+    width: 80px;
+    height: 26px
+}
+
+.album-byear-option {
+    display: block;
+    width: 78px;
+    height: 24px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background: #fafafa;
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px
+}
+
+.album-byear-annum-wrapper, .album-byear-annum-wrapper .album-byear-annum {
+    width: 540px;
+    height: 26px;
+    margin-left: 0;
+    overflow: hidden
+}
+
+.album-byear-annum li {
+    float: left;
+    width: 80px;
+    height: 26px;
+    margin-left: 10px
+}
+
+.album-byear-annum li a {
+    color: #333
+}
+
+.album-byear-btn {
+    width: 45px;
+    height: 26px;
+    padding-left: 15px
+}
+
+.album-byear-btn p {
+    float: left;
+    width: 20px;
+    height: 26px
+}
+
+.album-byear-btn a {
+    display: block;
+    width: 20px;
+    height: 26px
+}
+
+.album-byear-btn a, .album-byear-btn .disable {
+    background: url(//www.iqiyipic.com/common/fix/search_images/albumbyear20150626.png) no-repeat
+}
+
+.abyear-btn-left a {
+    background-position: 0 0
+}
+
+.abyear-btn-right a {
+    background-position: -20px 0
+}
+
+.abyear-btn-left a:hover {
+    background-position: 0 -26px
+}
+
+.abyear-btn-right a:hover {
+    background-position: -20px -26px
+}
+
+.abyear-btn-left .disable, .abyear-btn-left .disable:hover {
+    background-position: 0 -52px;
+    cursor: default
+}
+
+.abyear-btn-right .disable, .abyear-btn-right .disable:hover {
+    background-position: -20px -52px;
+    cursor: default
+}
+
+.mod_album_lists .album-paging {
+    float: left;
+    width: 605px;
+    height: 26px;
+    overflow: hidden;
+    *position: relative
+}
+
+.album-paging .album_tab {
+    float: none;
+    height: 26px;
+    margin-left: -7px;
+    margin-top: 0;
+    overflow: hidden
+}
+
+.album-paging .album_item {
+    width: 80px;
+    height: 26px;
+    margin-left: 7px;
+    border: 0 none
+}
+
+.album-paging .album_item a, .album-paging .album_item a:hover, .album-paging .album_item.selected a {
+    display: block;
+    width: 78px;
+    height: 24px;
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    background: #fafafa;
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    line-height: 24px;
+    text-align: center;
+    font-size: 12px;
+    color: #333
+}
+
+.album-paging .album_item a:hover, .album-paging .album_item.selected a {
+    color: #7fb52b
+}
+
+.album-paging-btn {
+    padding-left: 10px
+}
+
+.album_juji_vip {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2001;
+    width: 25px;
+    height: 19px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/search_result_20140603.png) no-repeat -329px -59px
+}
+
+.dsj-status .mod_album_lists .album_item_vip a {
+    background: #e7e7e7;
+    filter: none;
+    color: #999;
+    cursor: default
+}
+
+.dsj-status .mod_album_lists .album_item_vip a:hover {
+    background: #e7e7e7;
+    filter: none;
+    color: #999
+}
+
+.dsj-status .mod_album_lists .album_item a:hover .album_juji_vip {
+    display: none;
+    width: 0;
+    height: 0;
+    visibility: hidden
+}
+
+.dsj-status .mod_album_lists .album_item_vip a:hover .album_juji_vip, .dsj-status .mod_album_lists li.selected a:hover .album_juji_vip {
+    display: block;
+    width: 25px;
+    height: 19px;
+    visibility: visible
+}
+
+.mod_album_lists .album_item_vip a {
+    background: #e7e7e7;
+    filter: none;
+    color: #999;
+    cursor: default
+}
+
+.mod_album_lists .album_item_vip a:hover {
+    border: 1px solid #e1e1e1;
+    background: #e7e7e7;
+    filter: none;
+    color: #999;
+    cursor: default
+}
+
+.mod_album_lists .album_item a:hover .album_juji_vip {
+    display: none;
+    width: 0;
+    height: 0;
+    visibility: hidden
+}
+
+.mod_album_lists .album_item_vip a:hover .album_juji_vip, .mod_album_lists ul .selected a:hover .album_juji_vip {
+    display: block;
+    width: 25px;
+    height: 19px;
+    visibility: visible
+}
+
+.mod_album_download .mod-album_tab {
+    float: left;
+    position: relative;
+    width: 616px;
+    height: 32px;
+    overflow: hidden
+}
+
+.mod_album_download .mod-album_tab_num {
+    height: 32px
+}
+
+.mod_album_download .mod-album_tab a {
+    width: 78px;
+    margin-right: 8px
+}
+
+.mod_album_download .mod-album_tab a:hover {
+    background-color: #fff
+}
+
+.mod_album_download .mod-album_tab .selected:hover {
+    background-color: #f7f7f7
+}
+
+.mod_album_download .album-paging-btn {
+    padding-left: 16px
+}
+
+.mod_album_download .choose-years_new {
+    float: left;
+    width: 616px;
+    overflow: hidden
+}
+
+.mod_album_download .choose-years_new a {
+    width: 78px;
+    margin-right: 8px;
+    line-height: 24px
+}
+
+.mod_album_download .choose-years_new a.selected {
+    color: #7fb52b
+}
+
+.album-download-pop .mod_album_download .choose-years_new .choose-years-list {
+    width: 625px
+}
+
+.mod_album_download .choose-block .album-paging-btn {
+    padding-left: 19px
+}
+
+.mod_album_download .choose-block {
+    margin-top: 0
+}
+
+.mod_album_download .choose-month_new {
+    padding-top: 0
+}
+
+.download_sentence {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    -moz-line-height: 22px
+}
+
+.download_sentence a {
+    font-size: 14px;
+    color: #c5955d
+}
+
+.album-download-pop .album-download-con {
+    min-height: 128px;
+    _height: 128px
+}
+
+.album-download-con {
+    position: relative
+}
+
+.mod_album_download ul {
+    _position: relative
+}
+
+.mod_search_result .info_item_bottom .bottom_right {
+    *width: 150px
+}
+
+.mod_search_result .info_item_bottom .bottom_left {
+    *width: 400px
+}
+
+.album-download-pop {
+    position: absolute
+}
+
+.album-download-pop .album-download-con {
+    background: #fff;
+    border: 4px solid #ccc;
+    padding: 15px 10px 15px 20px;
+    width: 704px
+}
+
+.album-download-pop .album-download-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 12
+}
+
+.album-download-pop .btn-close-popup {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 32px;
+    _font-size: 22px;
+    color: #999;
+    line-height: 26px
+}
+
+.album-download-pop .download-pop_tit {
+    font-size: 18px;
+    color: #333
+}
+
+.album-download-pop .mod-album_tab_num {
+    font-size: 16px
+}
+
+.album-download-pop .mod_album_lists {
+    margin-top: 8px
+}
+
+.album-download-pop .album-download-btn {
+    padding-right: 20px
+}
+
+.album-download-juji em.album-juji-border {
+    display: none;
+    background: url(//www.iqiyipic.com/common/fix/search_images/search_result_20140603.png) no-repeat -340px -285px;
+    width: 57px;
+    height: 42px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2000
+}
+
+.album-download-juji .selected em.album-juji-border, .album-download-jujiLarge .selected em.album-juji-border {
+    display: block
+}
+
+.album-download-juji .dsj-status .mod_album_lists .album_item.selected a, .album-download-jujiLarge .mod_album_lists .album_item.selected a {
+    background: url(//www.iqiyipic.com/common/fix/search_images/album_bg_new.png) repeat-x;
+    color: #333;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#fbfbfb', GradientType=0)
+}
+
+.album-download-jujiLarge em.album-juji-border {
+    display: none;
+    background: url(//www.iqiyipic.com/common/fix/search_images/search_result_20140603.png) no-repeat 0 -285px;
+    width: 335px;
+    height: 42px;
+    position: absolute;
+    left: 0;
+    top: 0
+}
+
+.album-download-pop .mod-juji-lt {
+    width: 680px
+}
+
+.album-download-pop .mod-juji-rt {
+    width: 10px;
+    position: relative;
+    padding-right: 3px
+}
+
+.album-download-pop .album-scrollBtn {
+    display: block;
+    width: 8px;
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    background: #f2f2f2;
+    border: 1px solid #e1e1e1
+}
+
+.album-download-pop .album-scrollBtn:hover {
+    background: #ebebeb
+}
+
+.album-download-pop .dsj-status .mod_album_lists ul {
+    margin-left: -12px
+}
+
+.album-download-pop .choose-years_new .choose-years-list {
+    width: 595px
+}
+
+.mod-discernList .mod-page {
+    padding: 20px 0;
+    text-align: center;
+    height: 30px;
+    zoom: normal;
+    font-size: 0
+}
+
+.mod-discernList .mod-page a, .mod-discernList .mod-page span {
+    display: inline-block;
+    min-width: 28px;
+    _width: 28px;
+    height: 26px;
+    color: #333;
+    line-height: 25px;
+    font-size: 14px;
+    margin: 0 2px 0 3px;
+    vertical-align: middle;
+    border-radius: 2px;
+    border: 1px solid #e3e3e3;
+    background: #fff
+}
+
+.mod-discernList .mod-page a:hover {
+    color: #699f00;
+    border-color: #699f00;
+    text-decoration: none
+}
+
+.mod-discernList .mod-page .curPage {
+    border: 1px solid #fff;
+    color: #699f00;
+    cursor: default
+}
+
+.mod-discernList .mod-page a.a1, .mod-discernList .mod-page .noPage {
+    width: 58px
+}
+
+.mod-discernList .mod-page .noPage {
+    color: #999;
+    cursor: default
+}
+
+@charset "utf-8";
+.search_result_tip {
+    height: 34px;
+    background-color: #f2f2f2;
+    line-height: 34px
+}
+
+.search_result_tip .tip_inner {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    position: relative
+}
+
+.search_result_tip .tip_inner .keyword {
+    margin: 0 3px
+}
+
+.qypage-1180 .search_result_tip .tip_inner {
+    width: 1180px
+}
+
+.search_result_tip .tip_inner .search_content {
+    width: 546px;
+    overflow: hidden;
+    *zoom: 1;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.search_result_tip .tip_inner .mod_sear_select {
+    margin: 0 220px 0 0;
+    white-space: nowrap;
+    *line-height: 20px;
+    *margin-top: 5px;
+    position: absolute;
+    left: 548px
+}
+
+.qypage-1180 .search_result_tip .tip_inner .mod_sear_select {
+    margin: 0 420px 0 0;
+    *line-height: 20px;
+    *margin-top: 5px
+}
+
+.search_result_tip .tip_inner .mod_sear_select .link_sear_select, .search_result_tip .tip_inner .mod_sear_select .link_more {
+    display: inline;
+    vertical-align: top
+}
+
+.search_result_main_inner .search_result_tip {
+    background: 0;
+    height: 30px;
+    line-height: 30px
+}
+
+.search_result_main_inner .search_result_tip .tip_inner {
+    width: 100%
+}
+
+.search_result_main_inner .search_result_tip .tip_inner .mod_sear_select {
+    margin: 0
+}
+
+@charset "utf-8";
+.mod_search_result .list_item {
+    position: relative;
+    padding: 0 0 10px 200px;
+    border-bottom: 1px solid #eee;
+    _height: 101px;
+    *zoom: 1
+}
+
+.list_item_zindex {
+    z-index: 100
+}
+
+.mod_search_result .figure {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 10px
+}
+
+.mod_search_result .min_h247 {
+    min-height: 237px;
+    _height: 311px
+}
+
+.min_h247 .mod_figure li {
+    _padding-bottom: 30px
+}
+
+.mod_search_result .figure-180236, .mod_search_result .figure-180236 img {
+    width: 180px;
+    height: 236px
+}
+
+.mod_search_result .figure-180101, .mod_search_result .figure-180101 img {
+    width: 180px;
+    height: 101px
+}
+
+.mod_search_result .figure-180180, .mod_search_result .figure-180180 img {
+    width: 180px;
+    height: 180px
+}
+
+.mod_search_result .result_title {
+    margin-bottom: 2px;
+    font-size: 16px;
+    color: #333;
+    position: relative
+}
+
+.mod_search_result .result_title a {
+    display: inline-block;
+    max-width: 475px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top
+}
+
+.mod_search_result .result_title .time_tip {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 12px;
+    color: #999
+}
+
+.mod_search_result .title_type {
+    margin-right: 5px;
+    color: #999
+}
+
+.mod_search_result .result_info {
+    position: relative;
+    padding-top: 10px
+}
+
+.mod_search_result .result_info-auto {
+    min-height: 236px;
+    height: auto !important;
+    height: 236px
+}
+
+.mod_search_result .result_info-180236 {
+    height: 236px
+}
+
+.mod_search_result .result_info-180180 {
+    height: 180px
+}
+
+.mod_search_result .result_info-180101 {
+    height: 101px
+}
+
+.mod_search_result .result_info_lbl {
+    margin-right: 1px;
+    font-size: 12px;
+    color: #999
+}
+
+.mod_search_result .result_info_txt {
+    overflow: hidden;
+    line-height: 20px;
+    color: #666
+}
+
+.mod_search_result .result_info_link {
+    margin-right: 6px;
+    *margin-right: 5px
+}
+
+.mod_search_result .result_info_link_more {
+    color: #7ab800
+}
+
+.mod_search_result .result_info_desc {
+    font-size: 12px;
+    color: #999
+}
+
+.mod_search_result .result_info_cont {
+    display: inline-block;
+    *display: inline;
+    width: 560px;
+    font-size: 12px;
+    vertical-align: top;
+    *zoom: 1
+}
+
+.mod_search_result .result_info_cont-row1 {
+    overflow: hidden;
+    height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mod_search_result .result_info_cont-row3 {
+    max-height: 40px
+}
+
+.mod_search_result .result_info_cont-half {
+    overflow: hidden;
+    width: 275px;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.mod_search_result .info_item_bottom {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0
+}
+
+.mod_search_result .info_item_bottom .bottom_left {
+    display: inline;
+    float: left;
+    width: auto;
+    _width: 400px;
+    padding-right: 5px;
+    font-size: 0
+}
+
+.mod_search_result .info_item_bottom .bottom_right {
+    display: inline;
+    float: right;
+    position: relative
+}
+
+.mod_search_result .info_item_bottom .zi-40 {
+    z-index: 40
+}
+
+.mod_search_result .result_info-auto .info_item_bottom {
+    position: static
+}
+
+.mod_search_result .result_source_title {
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    vertical-align: middle
+}
+
+.mod_search_result .icon_iqiyi_new {
+    background-position: -520px 5px;
+    height: 30px
+}
+
+.mod_search_result .info_play_btn {
+    display: inline-block;
+    width: 116px;
+    height: 34px;
+    border: 1px solid #6a9e1b;
+    background-color: #6a9e1b;
+    border-radius: 3px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle
+}
+
+.mod_search_result .info_play_btn:hover {
+    border-color: #7fb52b;
+    background-color: #7fb52b;
+    color: #fff
+}
+
+.mod_search_result .btn-live-alreadyOrder, .mod_search_result .btn-live-end, .mod_search_result .btn-live-end:hover {
+    border-color: #a6a6a6;
+    background-color: #b1b1b1
+}
+
+.mod_search_result .btn-live-end {
+    cursor: default
+}
+
+.mod_search_result .btn-live-order, .mod_search_result .btn-live-cancOrder, .mod_search_result .btn-live-alreadyOrder:hover {
+    border-color: #dfdfdf;
+    background-color: #f2f2f2;
+    color: #699f00
+}
+
+.mod_search_result .info_download_btn {
+    display: inline-block;
+    margin: 8px 0 0 10px;
+    width: 84px;
+    height: 22px;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/isoDown.png) no-repeat;
+    vertical-align: middle
+}
+
+.mod_search_result .info_download_longBtn {
+    display: block;
+    margin-top: 8px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #699f00
+}
+
+.mod_search_result .info_download_longBtn i {
+    float: left;
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin: 4px 4px 0 0;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/download20150908.png) no-repeat center center
+}
+
+.moreChannel-daren {
+    display: none;
+    width: 180px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #699f00;
+    *zoom: 1
+}
+
+.moreChannel-daren i {
+    float: left;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 5px 5px 0 0;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/pindao-more.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/qiso_images/pindao-more.png");
+    _background: 0
+}
+
+.mod_search_result .result-daren {
+    height: 256px
+}
+
+.result-daren .moreChannel-daren {
+    display: block
+}
+
+.mod_figure {
+    *position: relative
+}
+
+.macOffline_btn {
+    display: block;
+    margin-top: 8px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    color: #699f00
+}
+
+.macOffline_btn i {
+    float: left;
+    display: inline-block;
+    width: 14px;
+    height: 13px;
+    margin: 4px 4px 0 0;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/download20150908.png) no-repeat center center
+}
+
+.bottom_left .info_download_btn {
+    margin-left: 0
+}
+
+.mod_search_result .wrap-subscribe .icon-vip {
+    height: 17px
+}
+
+.mod_search_result .wrap-subscribe .icon-certified {
+    cursor: default
+}
+
+.piclist-180101-wrap {
+    overflow: hidden;
+    margin-left: -20px
+}
+
+.mod_search_result .play_source {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    color: #333
+}
+
+.mod_search_result .play_source em {
+    font-size: 14px
+}
+
+.mod_search_result .play_source .source_detail {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    text-align: left;
+    font-size: 0
+}
+
+.mod_search_result .play_source .source_detail .icon_placeSource {
+    vertical-align: middle;
+    margin-right: 3px
+}
+
+.mod_search_result .arrow_tip {
+    top: 7px;
+    margin-left: 2px
+}
+
+.mod_search_result .arrow_tip .arrow_tip_inner {
+    border-top-color: #fff
+}
+
+.source_detail_openIndex .arrow_tip-open {
+    top: 0
+}
+
+.source_detail_openIndex .arrow_tip-open .arrow_tip_outer {
+    border: 6px dashed transparent;
+    border-bottom: 6px solid #676767
+}
+
+.source_detail_openIndex .arrow_tip-open .arrow_tip_inner {
+    top: 2px;
+    border: 6px dashed transparent;
+    border-bottom: 6px solid #fff
+}
+
+.mod_search_result .play_sourc_dropDown {
+    display: none;
+    position: absolute;
+    width: 85px;
+    border: 1px solid #e9e9e9;
+    padding-top: 15px;
+    padding-left: 10px;
+    background-color: #fff;
+    top: 25px;
+    right: 0;
+    cursor: default;
+    z-index: 1000
+}
+
+.mod_search_result .play_sourc_dropDown ul {
+    white-space: nowrap
+}
+
+.mod_search_result .play_sourc_dropDown .dropDown_item {
+    padding: 0 0 15px
+}
+
+.mod_search_result .play_sourc_dropDown .dropDown_item .icon_placeSource {
+    width: 20px
+}
+
+.footer_searchBox {
+    width: 611px;
+    margin: 25px auto
+}
+
+.mod_search_result .play_source .source_detail_openIndex {
+    z-index: 101
+}
+
+.mod_search_result .play_source .source_detail_onlyOne {
+    cursor: default
+}
+
+.movieLib-picList-11262 li {
+    width: 112px
+}
+
+.movieLib-picList-11262 .site-piclist_pic_link, .movieLib-picList-11262 .site-piclist_pic_link img {
+    width: 112;
+    height: 62px
+}
+
+.piclist-180101-to13073 {
+    max-height: 620px
+}
+
+body.qypage-1180 .piclist-180101-to13073 {
+    max-height: 440px;
+    overflow: hidden;
+    position: relative
+}
+
+body.qypage-1180 .piclist-180101-to13073 .site-piclist-180101 li {
+    width: 130px;
+    height: 110px
+}
+
+body.qypage-1180 .piclist-180101-to13073 .site-piclist-180101 .site-piclist_pic {
+    height: 73px
+}
+
+body.qypage-1180 .piclist-180101-to13073 .site-piclist-180101 .site-piclist_info {
+    font-size: 12px
+}
+
+.arrowL-tip-box {
+    position: absolute;
+    left: 136px;
+    top: 1px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    padding: 5px 20px 5px 10px;
+    border: 1px solid #f8bf89;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fdf5ee;
+    line-height: 20px
+}
+
+.arrowL-tip-box .close {
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    top: 4px;
+    font-size: 18px;
+    color: #ef9844
+}
+
+.arrowL-tip-box .close:hover {
+    text-decoration: none;
+    color: #ef9844
+}
+
+.arrowL-tip-box .tip_inner {
+    border-left: 8px solid #fdf5ee;
+    z-index: 1
+}
+
+.arrowL-tip-box .tip_inner, .arrowL-tip-box .tip_outer {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0
+}
+
+.arrowL-tip-box .tip_l {
+    display: inline-block;
+    width: 9px;
+    z-index: 4;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    margin-top: -8px;
+    left: -9px;
+    _left: -8px
+}
+
+.arrowL-tip-box .tip_l .tip_inner, .arrowL-tip-box .tip_l .tip_outer {
+    border: 8px transparent dashed;
+    margin-left: -7px;
+    _margin-left: -8px
+}
+
+.arrowL-tip-box .tip_l .tip_inner {
+    border-right: 8px solid #fdf5ee;
+    right: -1px
+}
+
+.arrowL-tip-box .tip_l .tip_outer {
+    border-right: 8px solid #f8bf89
+}
+
+.arrowL-tip-box .tip {
+    font-size: 12px
+}
+
+.mt14 {
+    margin-top: 14px
+}
+
+.mt6 {
+    margin-top: 6px
+}
+
+.info_play_btn_icon {
+    width: 12px;
+    height: 14px;
+    background: url(//www.iqiyipic.com/common/fix/search_result/pc-play-live-btnB.png) no-repeat;
+    margin-right: 5px;
+    display: inline-block;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/search_result/pc-play-live-btnB.png");
+    _background: 0;
+    margin-top: 7px
+}
+
+.newList-wrap {
+    width: 540px;
+    height: 195px;
+    overflow: hidden;
+    padding: 0 10px;
+    background: #f7f7f7;
+    font-size: 12px;
+    position: relative;
+    border-bottom: 1px solid #eee;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform-style: preserve-3d;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden
+}
+
+.newList-wrap ul li {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px dashed #d5d5d5
+}
+
+.newList-wrap ul li.lastLine {
+    border-bottom: 0
+}
+
+.newList-wrap ul li a {
+    width: 100%;
+    height: 38px;
+    display: block;
+    overflow: hidden;
+    cursor: pointer
+}
+
+.newList-wrap ul li.ended a:hover, .newList-wrap ul li.live a:hover {
+    background: #f0f0f0;
+    color: #7fb52b
+}
+
+.newList-wrap ul li.notStarted a, .newList-wrap ul li.notStarted a:hover {
+    background: #f7f7f7;
+    cursor: default
+}
+
+.program_status {
+    width: 47px;
+    height: 20px;
+    line-height: 20px;
+    _line-height: 18px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    margin: 0 15px 0 5px
+}
+
+.newList .ended .program_status {
+    background: #999
+}
+
+.newList .live .program_status {
+    background: #699f00
+}
+
+.newList .notStarted .program_status {
+    background: #c8c8c8
+}
+
+.program_status, .program_title, .program_play, .program_time {
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden
+}
+
+.program_time {
+    width: 50px
+}
+
+.mod_result .list_item .program_time {
+    width: 100px
+}
+
+.program_title {
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mod_result .list_item .program_title {
+    width: 295px
+}
+
+.newList .notStarted .program_title, .newList .notStarted .program_time {
+    color: #999
+}
+
+.newList .live .program_title, .newList .live .program_time {
+    color: #699f00
+}
+
+.program_play {
+    width: 60px;
+    text-align: right
+}
+
+.program_play_icon {
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+    background: url(//www.iqiyipic.com/common/fix/search_result/pc-live-play-btn.png) no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/search_result/pc-live-play-btn.png");
+    _background: 0;
+    margin-top: -2px;
+    _margin-top: 0
+}
+
+.newList .live .program_play {
+    color: #699f00
+}
+
+.newList-wrap .scrollBar {
+    position: absolute;
+    width: 6px;
+    height: 50px;
+    background: #e0e0e0;
+    right: 4px
+}
+
+.newList-wrap .scrollBarHover {
+    background: #699f00;
+    cursor: pointer
+}
+
+.info_item a.result_info_time, .channel_live a.result_info_link, .channel_live a:hover.result_info_link {
+    color: #999;
+    cursor: default
+}
+
+.result_tab_list .selected a {
+    cursor: default
+}
+
+.mod_search_banner {
+    width: 760px;
+    height: 105px
+}
+
+.mod_search_banner a {
+    display: inline-block
+}
+
+.mod_search_banner img {
+    width: 760px;
+    height: 100px;
+    overflow: hidden;
+    display: inline-block
+}
+
+.result-info-score {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 45px;
+    height: 20px;
+    line-height: 20px;
+    color: #ff722c
+}
+
+.result-info-score .lh18 {
+    line-height: 18px
+}
+
+.result-info-score .lh28 {
+    line-height: 18px
+}
+
+.result-info-score span {
+    float: left;
+    height: 20px
+}
+
+.mod_search_result .wrap-subscribe .btn-care {
+    width: 56px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0;
+    border-radius: 3px
+}
+
+.mod_search_result .wrap-subscribe .btn-care-tocare {
+    border: 1px solid #6a9e1b;
+    background: #6a9e1b
+}
+
+.mod_search_result .wrap-subscribe .btn-care-tocare:hover {
+    border: 1px solid #7fb52b;
+    background: #7fb52b;
+    color: #fff
+}
+
+.mod_search_result .wrap-subscribe .btn-care-cared {
+    border: 1px solid #a6a6a6;
+    background: #b1b1b1
+}
+
+.mod_search_result .wrap-subscribe .btn-care-update {
+    border: 1px solid #dfdfdf;
+    background: #f2f2f2;
+    color: #699f00
+}
+
+.mod_search_result .wrap-uploader {
+    display: none
+}
+
+.mod_search_result .result_info_cont-selected .wrap-uploader {
+    display: inline-block;
+    *position: relative
+}
+
+.mod_search_result .wrap-uploader .btn-care {
+    width: 46px;
+    height: 16px;
+    line-height: 16px;
+    line-height: 17px \0;
+    *line-height: 16px;
+    *position: absolute;
+    *top: -12px;
+    *left: 0
+}
+
+.starAbout-wrapper {
+    width: 760px;
+    border-bottom: 2px solid #e6e6e6
+}
+
+.starAbout-box {
+    width: 718px;
+    padding: 0 20px 5px;
+    border: 1px solid #dbdbdb
+}
+
+.sA-title {
+    width: 718px;
+    height: 33px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 42px
+}
+
+.sA-item {
+    position: relative;
+    width: 568px;
+    height: 170px;
+    padding: 15px 0 15px 150px;
+    border-bottom: 1px solid #eee
+}
+
+.bn {
+    border: 0 none
+}
+
+.sA-placard {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 130px;
+    height: 170px
+}
+
+.sA-placard img {
+    width: 130px;
+    height: 170px
+}
+
+.sA-info h3 {
+    width: 568px;
+    height: 24px;
+    margin-bottom: 2px;
+    line-height: 24px;
+    overflow: hidden
+}
+
+.sA-info h3 a {
+    font-size: 14px
+}
+
+.sA-info-con {
+    display: inline-block;
+    *display: inline;
+    width: 275px;
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+    vertical-align: top;
+    zoom: 1;
+    overflow: hidden
+}
+
+.highlight-box {
+    position: relative;
+    width: 568px;
+    height: 122px;
+    overflow: hidden
+}
+
+.highlight-box ul {
+    width: 1000px
+}
+
+.hl-item {
+    float: left;
+    width: 130px;
+    height: 122px;
+    margin-right: 16px
+}
+
+.hlPoint {
+    position: relative;
+    width: 130px;
+    height: 49px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 28px
+}
+
+.hl_line {
+    position: absolute;
+    top: 25px;
+    left: -72px;
+    width: 146px;
+    height: 16px;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/highlightDot.png) no-repeat
+}
+
+.hlImg, .hlImg img {
+    width: 130px;
+    height: 73px
+}
+
+.hlTip {
+    position: absolute;
+    top: 24px;
+    left: 0;
+    width: 31px;
+    height: 18px;
+    background: #699f00;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff
+}
+
+.hl-arrow {
+    position: absolute;
+    top: 5px;
+    right: -8px;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    overflow: hidden;
+    border: 4px dashed transparent;
+    border-left: 4px solid #699f00
+}
+
+.btnLeft, .btnRight {
+    position: absolute;
+    top: 63px;
+    z-index: 39px;
+    width: 25px;
+    height: 44px
+}
+
+.btnLeft {
+    left: 0
+}
+
+.btnRight {
+    right: 0
+}
+
+.btnLeft a, .btnRight a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    cursor: pointer
+}
+
+.btnLeft.disabled a, .btnLeft.disabled a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.btnRight.disabled a, .btnRight.disabled a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.btnLeft a {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.btnLeft a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png");
+    _background: 0
+}
+
+.btnRight a {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.btnRight a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png");
+    _background: 0
+}
+
+.btnLeft.disabled a, .btnRight.disabled a {
+    cursor: default
+}
+
+.starAbout-box .mod-page {
+    padding: 5px 0 10px
+}
+
+.starAbout-box .mod-page a.a1, .starAbout-box .mod-page .noPage {
+    width: 53px
+}
+
+.starAbout-box .mod-page a, .starAbout-box .mod-page span {
+    min-width: 26px;
+    _width: 26px;
+    height: 24px;
+    line-height: 24px
+}
+
+.list-card {
+    width: 760px;
+    border-bottom: 2px solid #e6e6e6
+}
+
+.wishCard {
+    width: 720px;
+    padding: 19px;
+    border: 1px solid #dbdbdb
+}
+
+.cardCon {
+    position: relative;
+    width: 570px;
+    padding: 0 0 0 150px
+}
+
+.starAttr {
+    height: 130px;
+    overflow: hidden
+}
+
+.starAttr-placard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 130px
+}
+
+.starAttr-placard img {
+    width: 130px;
+    height: 130px
+}
+
+.starAttr-des {
+    width: 570px;
+    overflow: hidden
+}
+
+.starAttr-des h3 {
+    width: 570px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden
+}
+
+.starAttr-des h3 a {
+    color: #ef5b30
+}
+
+.starAttr-pre {
+    height: 34px;
+    padding-bottom: 6px;
+    line-height: 34px;
+    color: #333
+}
+
+.starAttr-pre span {
+    margin-right: 10px
+}
+
+.starAttr-pro {
+    width: 570px;
+    height: 60px;
+    line-height: 20px;
+    overflow: hidden;
+    color: #666;
+    font-size: 12px
+}
+
+.starAttr-pro label {
+    color: #999
+}
+
+.starAttr-pro a {
+    color: #7fb52b
+}
+
+.starSeir {
+    width: 718px;
+    padding: 0 1px
+}
+
+.starSeir-tit {
+    height: 28px;
+    line-height: 16px;
+    font-size: 16px;
+    color: #666
+}
+
+.starSeir-tit span {
+    color: #ff6c00
+}
+
+.starSeir-main {
+    width: 735px;
+    max-height: 388px;
+    margin-left: -17px
+}
+
+.starSeir-main ul {
+    width: 735px;
+    height: 100%;
+    overflow: hidden
+}
+
+.starSeir-item {
+    float: left;
+    width: 130px;
+    height: 194px;
+    margin-left: 17px;
+    _display: inline
+}
+
+.starSeir-placard, .starSeir-placard img {
+    width: 130px;
+    height: 130px
+}
+
+.starName, .starInfo {
+    width: 130px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333
+}
+
+.starName {
+    padding-top: 6px;
+    height: 22px;
+    line-height: 22px
+}
+
+.starInfo {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px
+}
+
+.wishCard-page {
+    width: 100%;
+    text-align: center
+}
+
+.wishCard-page .mod-page {
+    padding: 0
+}
+
+.draAttr {
+    height: 170px
+}
+
+.draAttr-placard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130px;
+    height: 170px
+}
+
+.draAttr-placard img {
+    width: 130px;
+    height: 170px
+}
+
+.cardCol {
+    position: absolute;
+    bottom: 0
+}
+
+.draDetails {
+    width: 123px;
+    height: 36px
+}
+
+.draDetails a {
+    display: block;
+    width: 123px;
+    height: 36px;
+    background: #6a9e1b;
+    border-radius: 3px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px
+}
+
+.plotTit {
+    height: 12px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #999
+}
+
+.plotCon {
+    width: 570px;
+    height: 36px;
+    overflow: hidden;
+    margin-left: -12px
+}
+
+.plotItem {
+    float: left;
+    width: 83px;
+    height: 26px;
+    margin: 10px 0 0 12px;
+    _display: inline
+}
+
+.plotItem a {
+    display: block;
+    width: 81px;
+    height: 24px;
+    border-radius: 3px;
+    border: 1px solid #e1e1e1;
+    line-height: 24px;
+    text-align: center;
+    overflow: hidden
+}
+
+.draAttr .mod_tabBox {
+    width: 526px
+}
+
+.draAttr .ken_mod_tab {
+    width: 526px;
+    margin-top: -10px;
+    margin-bottom: 10px
+}
+
+.stillSeir .starSeir-item {
+    height: 150px
+}
+
+.stillSeir .starSeir-tit {
+    height: 16px
+}
+
+.stillSeir .ken_mod_tab {
+    margin-bottom: 15px
+}
+
+.videoSeir {
+    width: 720px
+}
+
+.filterWrapper {
+    width: 720px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee
+}
+
+.videoList-filter {
+    position: relative;
+    width: 684px;
+    padding-left: 36px;
+    line-height: 18px;
+    font-size: 12px;
+    margin: 5px 0 10px
+}
+
+.videoList-tit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 18px;
+    text-align: left;
+    color: #999
+}
+
+.videoList-main {
+    width: 684px;
+    max-height: 46px;
+    _height: 46px;
+    overflow: hidden
+}
+
+.videoList-main ul {
+    margin-left: -25px
+}
+
+.videoList-item {
+    float: left;
+    margin: 0 0 5px 25px;
+    _display: inline
+}
+
+.videoList-item a {
+    display: inline-block;
+    height: 18px;
+    line-height: 17px;
+    padding: 0 5px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    white-space: nowrap
+}
+
+.videoList-main li.selected a {
+    background: #6a9e1b;
+    color: #fff
+}
+
+.discernList_filter_alignment .videoList-main ul {
+    margin-left: -9px
+}
+
+.discernList_filter_alignment .videoList-item {
+    margin-left: 9px;
+    width: 106px
+}
+
+.discernList_filter_alignment .videoList-item a {
+    max-width: 96px;
+    _width: 96px;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.videoSeir-main {
+    min-height: 150px
+}
+
+.videoSeir-main ul {
+    *width: 746px;
+    height: 100%;
+    margin-left: -16px;
+    overflow: hidden
+}
+
+.videoSeir-item {
+    float: left;
+    width: 170px;
+    height: 150px;
+    margin-left: 16px;
+    _display: inline
+}
+
+.videoSeir-placard, .videoSeir-placard img {
+    width: 170px;
+    height: 95px
+}
+
+.videoSeir-name {
+    width: 170px;
+    height: 36px;
+    padding-top: 7px;
+    overflow: hidden;
+    line-height: 18px;
+    font-size: 12px
+}
+
+.videoSeir-main .wrapper-listTitle {
+    background: url(//www.iqiyipic.com/common/fix/site/titleBg-normal-170.png) no-repeat left bottom;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/titleBg-normal-170.png')
+}
+
+.discernList_filter .openBtn {
+    right: -11px;
+    top: 4px
+}
+
+.videoList-filter-all .videoList-main {
+    height: auto;
+    max-height: none
+}
+
+.videoList-filter .ico-explain-t {
+    background-position: -19px -10px;
+    _vertical-align: middle
+}
+
+.videoList-filter a:hover .ico-explain-t {
+    background-position: -19px 0
+}
+
+.videoList-filter-all .ico-explain-t {
+    background-position: 0 -10px
+}
+
+.videoList-filter-all a:hover .ico-explain-t {
+    background-position: 0 0
+}
+
+.hotWords-head {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #eee;
+    line-height: 24px;
+    font-size: 18px;
+    color: #333
+}
+
+.hotWords-list li {
+    height: 39px;
+    border-top: 1px dotted #ccc;
+    line-height: 39px
+}
+
+.hotWords-list .hotWords-des {
+    border-top: 0;
+    color: #999
+}
+
+.hotKeyword {
+    width: 140px;
+    margin-right: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.qypage-1180 .hotKeyword {
+    width: 260px
+}
+
+.icon-heat {
+    float: right;
+    width: 56px;
+    height: 12px;
+    margin-top: 14px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/heat-gray.png) no-repeat
+}
+
+.icon-heat i {
+    display: block;
+    width: 56px;
+    height: 12px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/heat.png) 0 0 no-repeat
+}
+
+.heat-d4 i {
+    background-position: -12px 0
+}
+
+.heat-d3 i {
+    background-position: -24px 0
+}
+
+.hotWords-fixed {
+    position: fixed;
+    top: 65px;
+    z-index: 50;
+    width: 200px;
+    background-color: #fff
+}
+
+.qypage-1180 .hotWords-fixed {
+    width: 320px
+}
+
+.mod_search_result .figure-clip {
+    overflow: hidden
+}
+
+.mod_search_result .figure-clip img {
+    width: 320px;
+    height: 180px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -160px
+}
+
+.mod_search_result .result_info_manual .info_item_bottom {
+    position: absolute
+}
+
+@charset "utf-8";
+.result_album {
+    position: relative;
+    *zoom: 1;
+    margin-left: -10px
+}
+
+.result_album .album_item {
+    display: inline;
+    float: left;
+    margin-left: 13px;
+    padding-bottom: 10px
+}
+
+.result_album .album_item-more {
+    float: right
+}
+
+.result_album .album_link {
+    display: block;
+    width: 42px;
+    height: 32px;
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    line-height: 32px;
+    color: #333;
+    position: relative;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(239, 238, 238, .75)
+}
+
+.result_album .album_link:hover {
+    border: 1px solid #85b920;
+    background: #6fa800;
+    text-decoration: none;
+    color: #fff
+}
+
+.result_album .album_item .icon-album-vip {
+    top: -7px;
+    right: -7px;
+    width: 28px;
+    height: 17px;
+    background-image: url(//www.iqiyipic.com/common/fix/search_images/VIP2817.png);
+    margin-right: 0
+}
+
+.result_album .album_item .icon-album-fufei, .result_album .album_item .icon-album-tennies {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    background-repeat: no-repeat
+}
+
+.result_album .album_item .icon-album-fufei {
+    width: 28px;
+    height: 17px;
+    background-image: url(//www.iqiyipic.com/common/fix/search_images/fufei2817.png)
+}
+
+.result_album .album_item .icon-album-tennies {
+    width: 54px;
+    height: 16px;
+    background-image: url(//pic3.iqiyipic.com/common/20171106/ad/1b/vip_100003_v_601_0_18.png)
+}
+
+.result_album .album_link-more {
+    width: 98px
+}
+
+.result_album-half {
+    margin-right: -20px;
+    padding-left: 20px;
+    margin-left: -20px
+}
+
+.result_album-half .album_item {
+    margin-right: 20px;
+    margin-left: 0;
+    position: relative
+}
+
+.result_album-half .album_link {
+    overflow: hidden;
+    width: 248px;
+    padding: 0 10px;
+    font-size: 12px;
+    text-align: left;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.result_album-half .album_link-more {
+    width: 98px;
+    padding: 0;
+    text-align: center
+}
+
+.search_icon_download {
+    display: inline-block;
+    width: 16px;
+    height: 13px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/icon_download.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoad(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/search_images/icon_download.png");
+    _background: 0
+}
+
+.link_download {
+    display: inline-block;
+    font-size: 12px;
+    margin: 12px 0 0 12px
+}
+
+.icon-viedo-self {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0
+}
+
+.video_cover {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .6);
+    filter: progid:DXImageTransform.Microsoft.Gradient(enabled="true", startColorStr="#99000000", endColorStr="#99000000");
+    z-index: 20
+}
+
+.video_cover .icon-video-play {
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/video_play.png) no-repeat;
+    top: 50%;
+    left: 50%;
+    margin: -33px 0 0 -33px;
+    z-index: 25;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoad(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/search_images/video_play.png");
+    _background: 0
+}
+
+.mod_search_result .figure:hover .video_cover {
+    display: block
+}
+
+.mod_album_pop {
+    display: none;
+    position: absolute;
+    height: 30px;
+    padding: 0 25px 0 10px;
+    _width: 250px;
+    line-height: 30px;
+    background-color: #fdf5ee;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #f8bf89;
+    z-index: 100
+}
+
+.mod_album_pop .link_info {
+    color: #699f00
+}
+
+.mod_album_pop .close_btn {
+    position: absolute;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 12px;
+    color: #699f00;
+    top: 10px;
+    right: 8px
+}
+
+.mod_album_pop .pop_arrow {
+    position: absolute;
+    margin-left: -10px;
+    top: -10px;
+    left: 50%
+}
+
+.mod_album_pop .pop_arrow .arrow_inner {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: 5px dashed transparent;
+    border-bottom: 5px solid #fdf5ee;
+    top: 0;
+    z-index: 5
+}
+
+.mod_album_pop .pop_arrow .arrow_outer {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    border: 5px dashed transparent;
+    border-bottom: 5px solid #f8bf89;
+    top: -1px;
+    z-index: 1
+}
+
+.result-tab-frame .result-tab-con .result-tab-option {
+    margin-bottom: 0
+}
+
+.info_item .result-tab-frame {
+    height: 28px;
+    overflow: visible
+}
+
+.result-tab-frame {
+    width: 560px;
+    border-bottom: 2px solid #eee
+}
+
+.result-tab-con {
+    width: 475px;
+    height: 30px;
+    overflow: hidden;
+    position: relative
+}
+
+.result-tab-con .result_tab_list {
+    border-bottom: 0
+}
+
+.result-tab-con .result-tab-option li {
+    height: 24px;
+    margin: 0 25px 0 1px;
+    border-bottom: 2px solid #eee;
+    padding: 2px 5px;
+    position: relative;
+    top: 0;
+    _top: 2px
+}
+
+.result-tab-con .result-tab-option li.selected {
+    border-bottom: 2px solid #7fb52b
+}
+
+.result-tab-frame .result-tab-con .result-tab-option .link_tab_list {
+    padding: 0;
+    margin-right: 0;
+    border-bottom: 0
+}
+
+.result-tab-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 36px;
+    height: 19px;
+    padding: 8px 1px 0 15px;
+    background: #fff
+}
+
+.result-tab-lbtn, .result-tab-rbtn {
+    display: block;
+    width: 8px;
+    height: 12px
+}
+
+.result-tab-lbtn {
+    float: left;
+    background: url(//pic5.iqiyipic.com/common/20150616/qiso_images/retabBtn20150520_01.png) 0 -20px no-repeat
+}
+
+.result-tab-rbtn {
+    float: right;
+    background: url(//pic5.iqiyipic.com/common/20150616/qiso_images/retabBtn20150520_02.png) 0 -20px no-repeat
+}
+
+.result-tab-lbtn:hover, .result-tab-rbtn:hover {
+    background-position: 0 -40px
+}
+
+.result-tab-btn .disable {
+    background-position: 0 0;
+    cursor: default
+}
+
+.mod_result_list .result-movie-frame {
+    width: 760px;
+    padding: 10px 0
+}
+
+.result-movie-frame:after {
+    display: table;
+    content: '';
+    clear: both
+}
+
+.result-movie-frame {
+    *zoom: 1
+}
+
+.result-movie-frame .result-tab-frame {
+    width: 560px;
+    height: 28px;
+    position: absolute;
+    top: 42px;
+    left: 200px;
+    overflow: visible
+}
+
+.result-movie-frame .figure {
+    left: 0;
+    top: 0
+}
+
+.result-movie-frame .result-tab-con {
+    width: 500px
+}
+
+.result-info-movie {
+    width: 560px;
+    float: left;
+    margin-left: 20px
+}
+
+.result-movie-frame .result-info-movie {
+    height: 195px;
+    padding-top: 41px
+}
+
+.result-info-movie .result-info-score {
+    top: 45px
+}
+
+.series-item {
+    position: relative;
+    zoom: 1
+}
+
+.figure-wrapper {
+    position: static;
+    float: left;
+    width: 180px;
+    height: 236px
+}
+
+.result-info-movie .details-btn {
+    background: #f2f2f2;
+    border-color: #dfdfdf;
+    _margin-bottom: 1px
+}
+
+.series-item .result-info-movie .info_item_bottom .details-btn, .series-item .result-info-movie .info_item_bottom .details-btn:hover, .series-item .result-info-movie .info_item_bottom .details-btn:visited {
+    color: #699f00
+}
+
+.result-movie-frame .play_sourc_dropDown ul li a:hover {
+    zoom: 1
+}
+
+@charset "utf-8";
+.mod_figures_preview {
+    overflow: hidden;
+    position: relative;
+    width: 558px;
+    height: 120px
+}
+
+.mod_figure {
+    overflow: hidden;
+    height: 106px;
+    margin-left: -26px
+}
+
+.mod_figure li {
+    display: inline;
+    float: left;
+    width: 120px;
+    height: 100%;
+    margin-left: 26px
+}
+
+.mod_figure .preview_figure {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 67px
+}
+
+.mod_figure .preview_figure img {
+    width: 120px;
+    height: 67px
+}
+
+.mod_figure .preview_info {
+    overflow: hidden;
+    height: 36px;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 3px
+}
+
+.mod_figures_preview .figures_btnLeft, .mod_figures_preview .figures_btnRight {
+    position: absolute;
+    width: 25px;
+    height: 44px;
+    top: 10px;
+    z-index: 39;
+    _cursor: pointer
+}
+
+.mod_figures_preview .figures_btnLeft.disabled a, .mod_figures_preview .figures_btnLeft.disabled a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.mod_figures_preview .figures_btnRight.disabled a, .mod_figures_preview .figures_btnRight.disabled a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.mod_figures_preview .figures_btnLeft {
+    left: 0
+}
+
+.mod_figures_preview .figures_btnLeft a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.mod_figures_preview .figures_btnLeft a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png");
+    _background: 0
+}
+
+.mod_figures_preview .figures_btnRight {
+    right: 0
+}
+
+.mod_figures_preview .figures_btnRight a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.mod_figures_preview .figures_btnRight a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png");
+    _background: 0
+}
+
+.mod_figures_preview .figures_btnLeft.disabled a, .mod_figures_preview .figures_btnRight.disabled a {
+    cursor: default
+}
+
+.mod_figure-oneline .preview_title {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mod_figure .preview-info-title, .mod_figure .preview-info-publish {
+    height: 18px
+}
+
+.result_tab_list li a {
+    cursor: pointer
+}
+
+@charset "utf-8";
+.mod_figures-140187 {
+    overflow: hidden;
+    position: relative;
+    width: 100%
+}
+
+.mod_figures-140187 .mod_figure {
+    _position: relative;
+    overflow: hidden;
+    height: 250px;
+    margin-left: -15px
+}
+
+.mod_figures-140187 .mod_figure li {
+    display: inline;
+    float: left;
+    width: 140px;
+    margin-left: 15px
+}
+
+.mod_figures-140187 .mod_figure .preview_figure {
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 187px
+}
+
+.mod_figures-140187 .mod_figure .preview_figure img {
+    width: 140px;
+    height: 187px
+}
+
+.mod_figures-140187 .mod_figure .preview_title {
+    overflow: hidden;
+    height: 18px;
+    margin-top: 5px
+}
+
+.mod_figures-140187 .mod_figure .preview_info {
+    overflow: hidden;
+    height: 16px;
+    line-height: 18px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #999
+}
+
+.mod_figures-140187 .figures_btnLeft, .mod_figures-140187 .figures_btnRight {
+    position: absolute;
+    width: 25px;
+    height: 44px;
+    top: 70px;
+    z-index: 100
+}
+
+.mod_figures-140187 .figures_btnLeft {
+    left: 0
+}
+
+.mod_figures-140187 .figures_btnLeft a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.mod_figures-140187 .figures_btnLeft a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png");
+    _background: 0
+}
+
+.mod_figures-140187 .figures_btnRight {
+    right: 0
+}
+
+.mod_figures-140187 .figures_btnRight a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.mod_figures-140187 .figures_btnRight a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png");
+    _background: 0
+}
+
+@charset "utf-8";
+.mod_figures-14079 {
+    overflow: hidden;
+    position: relative
+}
+
+.result_section .mod_figures-14079 {
+    width: 760px
+}
+
+.mod_figures-14079 .mod_figure {
+    _position: relative;
+    overflow: hidden;
+    height: 190px;
+    margin-left: -15px
+}
+
+.mod_figures-14079 .mod_figure li {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 140px;
+    margin-left: 15px;
+    height: 100%
+}
+
+.mod_figures-14079 .mod_figure .preview_figure {
+    position: relative;
+    display: block;
+    width: 140px;
+    height: 79px
+}
+
+.mod_figures-14079 .mod_figure .preview_figure img {
+    width: 140px;
+    height: 79px
+}
+
+.mod_figures-14079 .mod_figure .preview_title {
+    overflow: hidden;
+    height: 36px;
+    margin-top: 5px;
+    font-size: 12px;
+    color: #333
+}
+
+.mod_figures-14079 .mod_figure .preview_info {
+    overflow: hidden;
+    height: 16px;
+    line-height: 18px;
+    margin-top: 3px;
+    font-size: 12px;
+    color: #999
+}
+
+.mod_figures-14079 .figures_btnLeft, .mod_figures-14079 .figures_btnRight {
+    position: absolute;
+    width: 25px;
+    height: 44px;
+    top: 16px;
+    z-index: 100
+}
+
+.mod_figures-14079 .figures_btnLeft {
+    left: 0
+}
+
+.mod_figures-14079 .figures_btnLeft a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.mod_figures-14079 .figures_btnLeft a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png");
+    _background: 0
+}
+
+.mod_figures-14079 .figures_btnRight {
+    right: 0
+}
+
+.mod_figures-14079 .figures_btnRight a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.mod_figures-14079 .figures_btnRight a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png");
+    _background: 0
+}
+
+.mod_figures-14079 .dotLine {
+    position: relative;
+    border-top: 2px solid #ececec;
+    margin: 19px -15px 11px 0
+}
+
+.mod_figures-14079 .dotLine .dot {
+    height: 16px;
+    left: 50%;
+    margin-left: -12px;
+    position: absolute;
+    top: -8px;
+    width: 16px;
+    display: inline-block;
+    background: url(//www.iqiyipic.com/common/fix/iqiyichupin_images/sprite_dot.png) no-repeat
+}
+
+.mod_figures-14079 .hover .dotLine .dot, .mod_figures-14079 .selected .dotLine .dot {
+    width: 18px;
+    height: 25px;
+    background-position: 0 -19px;
+    top: -14px
+}
+
+.mod_figures-14079 .date {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin: 15px 0 5px 0
+}
+
+.mod_figures-14079 .hover .date, .mod_figures-14079 .selected .date {
+    color: #f05b26
+}
+
+.mod_figures-120160 {
+    width: 558px;
+    height: 215px
+}
+
+.mod_figures-120160 .mod_figure {
+    height: 215px
+}
+
+.mod_figures-120160 .mod_figure li {
+    width: 120px;
+    height: 100%
+}
+
+.mod_figures-120160 .mod_figure .preview_figure, .mod_figures-120160 .mod_figure .preview_figure img {
+    width: 120px;
+    height: 160px
+}
+
+.mod_figures-120160 .mod_figure .preview_info, .mod_figures-120160 .mod_figure .preview_title {
+    overflow: hidden;
+    width: 100%;
+    height: 16px;
+    line-height: 16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px
+}
+
+.mod_figures-120160 .mod_figure .preview_info {
+    color: #999
+}
+
+.mod_figures-120160 .mod_figure .preview_title {
+    margin-top: 10px
+}
+
+.mod_figures-120160 .figures_btnLeft, .mod_figures-120160 .figures_btnRight {
+    top: 60px
+}
+
+@charset "utf-8";
+.result_tab_list_wrap {
+    overflow: hidden;
+    position: relative;
+    _width: 560px;
+    height: 30px;
+    margin-bottom: 15px;
+    z-index: 20
+}
+
+.result_tab_list_wrap .pr10 {
+    width: 530px;
+    overflow: hidden;
+    padding-right: 0
+}
+
+.result_tab_list_wrap .result_tab_btn_left {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: url(//www.iqiyipic.com/common/fix/search_result/result_tab_btn.png) no-repeat 0 0;
+    top: 9px;
+    left: 0;
+    z-index: 25
+}
+
+.result_tab_list_wrap .result_tab_btn_left:hover {
+    background-position: 0 -20px
+}
+
+.result_tab_list_wrap .result_tab_btn_left-disabled {
+    background-position: 0 -40px;
+    cursor: default
+}
+
+.result_tab_list_wrap .result_tab_btn_left-disabled:hover {
+    background-position: 0 -40px
+}
+
+.result_tab_list_wrap .result_tab_btn_right {
+    position: absolute;
+    width: 8px;
+    height: 12px;
+    background: url(//www.iqiyipic.com/common/fix/search_result/result_tab_btn.png) no-repeat -20px 0;
+    top: 9px;
+    right: 0;
+    z-index: 25
+}
+
+.result_tab_list_wrap .result_tab_btn_right:hover {
+    background-position: -20px -20px
+}
+
+.result_tab_list_wrap .result_tab_btn_right-disabled {
+    background-position: -20px -40px;
+    cursor: default
+}
+
+.result_tab_list_wrap .result_tab_btn_right-disabled:hover {
+    background-position: -20px -40px
+}
+
+.result_tab .result_tab_body {
+    display: none
+}
+
+.result_tab_list {
+    font-size: 0;
+    border-bottom: 2px solid #eee
+}
+
+.result_tab_list li {
+    display: inline-block;
+    *display: inline;
+    margin: 0 1px;
+    font-size: 14px;
+    *zoom: 1
+}
+
+.result_tab_list .link_tab_list {
+    position: relative;
+    display: inline-block;
+    padding: 2px 5px;
+    bottom: -2px;
+    border-bottom: 2px solid #eee;
+    margin-right: 20px
+}
+
+.result_tab_list .selected .link_tab_list {
+    color: #7fb52b;
+    border-bottom: 2px solid #7fb52b
+}
+
+.result_tab_more {
+    position: absolute;
+    top: 3px;
+    right: 0
+}
+
+.result_tab_list_wrap .result_tab_list {
+    width: 200%;
+    white-space: nowrap
+}
+
+.result_tab_tabs {
+    margin-bottom: 15px;
+    margin-top: 5px
+}
+
+.result_tab_content {
+    margin-top: 15px
+}
+
+.info_item-filmfest .result_tab_list_wrap {
+    margin-bottom: 0
+}
+
+.info_item-filmfest .result-tab-btn {
+    padding-left: 42px
+}
+
+.filmfest_list-header {
+    padding: 13px 0 9px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #699f00;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/filmfest_list-bg.png) repeat-x bottom
+}
+
+.filmfest_list-header li {
+    float: left;
+    height: 18px;
+    margin-left: 19px;
+    _display: inline
+}
+
+.filmfest_list-header .mold-1, .filmfest_list-body .mold-1 {
+    width: 130px
+}
+
+.filmfest_list-header .mold-2, .filmfest_list-body .mold-2 {
+    width: 196px
+}
+
+.filmfest_list-header .mold-3, .filmfest_list-body .mold-3 {
+    width: 158px;
+    margin-right: 19px
+}
+
+.filmfest_list-body li {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    background: url(//www.iqiyipic.com/common/fix/qiso_images/filmfest_list-bg.png) repeat-x bottom;
+    font-size: 12px;
+    color: #999
+}
+
+.filmfest_list-body .mold-1, .filmfest_list-body .mold-2, .filmfest_list-body .mold-3 {
+    float: left;
+    min-height: 20px;
+    _height: 20px;
+    margin-left: 19px;
+    _display: inline
+}
+
+.filmfest-option {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.filmfest_list-more {
+    padding: 9px 0 5px 19px;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px
+}
+
+@charset "utf-8";
+.result_cutline {
+    height: 1px;
+    width: 100%;
+    border-top: 1px dotted #ccc;
+    font-size: 0
+}
+
+.result_section {
+    padding-top: 15px;
+    _width: 760px;
+    overflow: hidden
+}
+
+.result_section .site-title {
+    padding-left: 0
+}
+
+.result_section .site-title h3 a, .result_section .site-title h3 a:hover {
+    color: #ff6c00
+}
+
+.result_section .site-title .icon-more {
+    color: #333
+}
+
+@charset "utf-8";
+.result_site_title_large {
+    padding-top: 5px;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 9px;
+    color: #333
+}
+
+.result_site_title_large .result_site_title_more {
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+    display: none
+}
+
+.piclist_9090 {
+    overflow: hidden;
+    margin-left: -40px
+}
+
+.piclist_9090 li {
+    float: left;
+    width: 80px;
+    margin-left: 40px;
+    padding-bottom: 11px;
+    _display: inline
+}
+
+.piclist_9090 .piclist_img {
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%
+}
+
+.piclist_9090 .piclist_img img {
+    width: 80px;
+    height: 80px
+}
+
+.piclist_9090 .piclist_info {
+    width: 100%;
+    margin-top: 6px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center
+}
+
+.piclist_9090-line2 {
+    max-height: 234px;
+    _height: 234px;
+    position: relative
+}
+
+.piclist-90120 {
+    margin-left: -20px
+}
+
+.piclist-90120 li {
+    width: 90px
+}
+
+.qypage-1180 .piclist-90120 {
+    margin-left: -25px
+}
+
+.qypage-1180 .piclist-90120 li {
+    padding-left: 25px
+}
+
+.piclist-90120 .site-piclist_pic {
+    width: 90px;
+    height: 120px
+}
+
+.piclist-90120 .site-piclist_info {
+    height: 31px;
+    padding-top: 6px;
+    font-size: 12px
+}
+
+.mod-searchAbout {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px
+}
+
+.mod-searchAbout .searchAbout_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333
+}
+
+.mod-searchAbout .searchAbout_list {
+    overflow: hidden;
+    background-color: #f2f2f2;
+    padding: 14px 17px;
+    *zoom: 1
+}
+
+.mod-searchAbout .searchAbout_list li {
+    float: left;
+    *display: inline;
+    width: 25%;
+    margin: 3px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.mod-searchAbout .searchAbout_list li a {
+    display: inline-block;
+    width: 145px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.mod_sear_select {
+    margin: 10px 0
+}
+
+.mod_sear_select .link_sear_select {
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 3px;
+    vertical-align: middle
+}
+
+.mod_sear_select .selected, .mod_sear_select .selected:hover {
+    background: #699f00;
+    color: #fff
+}
+
+.mod_sear_select .arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    border: 4px dashed transparent;
+    border-top: 4px solid #999;
+    top: 8px;
+    *top: 11px;
+    right: 0
+}
+
+.mod_sear_select .link_more {
+    position: relative;
+    display: inline-block;
+    padding: 2px 10px;
+    font-size: 12px;
+    vertical-align: middle
+}
+
+.mod_sear_select .link_more-selected .arrow {
+    border-top: 4px dashed transparent;
+    border-bottom: 4px solid #999;
+    top: 4px;
+    *top: 7px
+}
+
+.mod_sear_menu {
+    border: 1px solid #e0e0e0
+}
+
+.mod_sear_list {
+    position: relative;
+    height: 24px;
+    padding: 5px 15px 5px 80px;
+    border-top: 1px dotted #d5d5d5;
+    margin-top: -1px;
+    overflow: hidden
+}
+
+.mod_sear_list h3 {
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 10px
+}
+
+.mod_category_item {
+    word-wrap: break-word;
+    width: 100%;
+    *zoom: 1
+}
+
+.mod_category_item li {
+    float: left;
+    display: inline;
+    margin: 0 10px 6px 0;
+    white-space: nowrap
+}
+
+.mod_category_item a {
+    display: inline-block;
+    height: 24px;
+    padding: 0 7px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: nowrap
+}
+
+.mod_category_item .selected a, .mod_category_item .selected a:hover, .mod_category_item .selected a:active {
+    background: #699f00;
+    color: #fff
+}
+
+.openBtn {
+    position: absolute;
+    right: 0;
+    top: 6px
+}
+
+.openBtn-txt {
+    display: block;
+    width: 45px;
+    height: 20px;
+    line-height: 20px
+}
+
+.openBtn-txt em, .close-mod_btn em {
+    cursor: pointer;
+    _vertical-align: 10px
+}
+
+.borNone {
+    border-bottom: 0
+}
+
+.mod_sear_result {
+    border: 1px solid #e5e5e5;
+    padding: 2px 3px 2px 5px;
+    *padding: 0 3px 0 5px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    background: #fbfbfb;
+    color: #699f00;
+    margin-right: 6px;
+    font-size: 12px
+}
+
+.mod_sear_result em, .sear_delBtn {
+    display: inline-block;
+    vertical-align: middle;
+    *vertical-align: 0;
+    _vertical-align: -2px
+}
+
+.sear_delBtn {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #aaa;
+    margin-left: 3px;
+    font-size: 20px;
+    _font-size: 14px;
+    line-height: 20px
+}
+
+.pl70 {
+    padding-left: 70px;
+    *height: 25px
+}
+
+.mod_sear_list_open {
+    height: auto;
+    padding-right: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    *zoom: 1
+}
+
+.mod_sear_list_open .close-mod_btn {
+    margin-top: -2px
+}
+
+.mod_sear_list_open .openBtn {
+    display: none
+}
+
+.mod_sear_list_open li {
+    margin-bottom: 6px
+}
+
+.ico-explain-b, .ico-explain-t {
+    background: url(//www.iqiyipic.com/common/fix/list_images/list-tb-icon.png) no-repeat;
+    display: inline-block;
+    height: 6px;
+    width: 11px;
+    overflow: hidden;
+    vertical-align: middle;
+    *vertical-align: 6px;
+    _vertical-align: 12px;
+    margin: 2px 0 0 6px
+}
+
+.ico-explain-b {
+    background-position: -19px -10px
+}
+
+.ico-explain-t {
+    background-position: 0 -10px;
+    _vertical-align: 15px
+}
+
+a:hover .ico-explain-b {
+    background-position: -19px 0
+}
+
+a:hover .ico-explain-t {
+    background-position: 0 0
+}
+
+.vm-inline {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle
+}
+
+.page-list .search-checkBox {
+    position: relative;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    vertical-align: middle;
+    border-radius: 1px;
+    *margin-right: 5px;
+    _vertical-align: -1px
+}
+
+.page-list .search-checkBox .search-checkBox-inner, .page-search .search-checkBox .search-checkBox-inner {
+    position: absolute;
+    display: none;
+    width: 9px;
+    height: 9px;
+    background-color: #699f00;
+    top: 1px;
+    left: 1px;
+    _font-size: 0
+}
+
+.page-list .selected .search-checkBox .search-checkBox-inner, .page-search .selected .search-checkBox .search-checkBox-inner, .page-search .checkBox-selected .search-checkBox .search-checkBox-inner {
+    display: inline-block
+}
+
+.page-list .selected .vm-inline {
+    color: #699f00
+}
+
+.page-list .checkBox-item, .page-search .checkBox-item {
+    margin-right: 12px
+}
+
+.page-list .checkBox-item .vm-inline {
+    cursor: pointer
+}
+
+.page-list .mr0, .page-search .mr0 {
+    margin-right: 0
+}
+
+.sort-result-l {
+    border-bottom: 1px solid #e0e0e0;
+    height: 34px;
+    position: relative;
+    z-index: 1
+}
+
+.sort-result-l ul {
+    height: 35px;
+    margin-right: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2
+}
+
+.sort-result-l li {
+    float: left
+}
+
+.sort-result-l li a {
+    float: left;
+    background: #fbfbfb;
+    border: 1px solid #e0e0e0;
+    line-height: 33px;
+    padding: 0 22px
+}
+
+.sort-result-l li.selected {
+    background: #e0e0e0;
+    padding: 0 1px;
+    border-top: 2px solid #699f00
+}
+
+.sort-result-l li.selected a {
+    border: 0;
+    background: #fff;
+    height: 33px
+}
+
+.sort-result-l li.tabs-two a {
+    border-left: none
+}
+
+.sort-result-l li.tabs-one a {
+    border-right: 0
+}
+
+.sort-result-c {
+    padding-left: 180px
+}
+
+.sort-result-c .c-999, .sort-result-l .c-999 {
+    width: 42px
+}
+
+.sort-result-l .sort-result-r .c-999 {
+    width: 60px
+}
+
+.page-list .site-piclist_info_title, .page-list .site-piclist_info_describe {
+    white-space: normal
+}
+
+.page-list .site-piclist_info {
+    height: 60px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-top: 5px
+}
+
+.hover .video_brooch-default {
+    display: block
+}
+
+.mod_sear_list_channel {
+    height: auto;
+    _zoom: 1
+}
+
+.mod_sear_list_channel .mod_category_item {
+    float: left;
+    width: 608px
+}
+
+.mod_sear_list_channel .mod_category_all {
+    float: left;
+    width: 54px
+}
+
+@charset "utf-8";
+.result_sort_list {
+    margin-bottom: 10px
+}
+
+.result_sort_list .title {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 8px
+}
+
+.sort_list {
+    _position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-left: -16px
+}
+
+.sort_list li {
+    display: inline;
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 5px
+}
+
+.sort_list .link_sort {
+    display: inline-block;
+    height: 22px;
+    padding: 0 8px;
+    line-height: 22px;
+    font-size: 12px
+}
+
+.sort_list .selected {
+    background-color: #699f00;
+    color: #fff;
+    border-radius: 3px
+}
+
+.sort_list .selected:hover {
+    color: #fff
+}
+
+.sort_list-fixed li {
+    width: 80px
+}
+
+.mod-rankList-tab {
+    overflow: hidden;
+    font-size: 12px;
+    margin-left: -4px;
+    margin-bottom: 5px;
+    white-space: nowrap
+}
+
+.mod-rankList-tab .link_tab {
+    border-left: 1px dotted #ccc;
+    margin-left: -1px;
+    padding: 0 2px 0 4px
+}
+
+.mod-rankList-tab .selected {
+    color: #699f00
+}
+
+.mod-rankList-tab .link_tab_more {
+    margin-left: 6px
+}
+
+.rankList {
+    overflow: hidden;
+    *zoom: 1;
+    font-size: 14px
+}
+
+.rankList:before, .rankList:after {
+    content: "";
+    display: table;
+    font: 0/0 a
+}
+
+.rankList:after {
+    clear: both
+}
+
+.rankList li {
+    border-top: 1px dotted #ccc;
+    margin-top: -1px
+}
+
+.rankList_link {
+    display: block;
+    position: relative;
+    height: 39px;
+    padding-left: 30px;
+    line-height: 39px;
+    overflow: hidden
+}
+
+.rankList_link:hover {
+    text-decoration: none
+}
+
+.rankList_link .num {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: #bbb;
+    border-radius: 2px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center
+}
+
+.rankList_link .num_large {
+    width: 28px;
+    height: 28px;
+    line-height: 28px
+}
+
+.rankList_link .num_hot {
+    background-color: #5aa700
+}
+
+.item_l {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.item_r {
+    float: right;
+    word-break: break-all;
+    word-wrap: break-word;
+    height: 100%
+}
+
+.item_name {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%
+}
+
+.item_num {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    color: #999
+}
+
+.tend {
+    display: inline-block;
+    vertical-align: top;
+    width: 16px;
+    height: 100%;
+    background: url(//www.iqiyipic.com/common/fix/rankList/tend2_png8.png) no-repeat
+}
+
+.tend_up {
+    background-position: 0 51%
+}
+
+.tend_down {
+    background-position: -20px 51%
+}
+
+.tend_line {
+    background-position: -40px 50%
+}
+
+.mod-rankList_col2 {
+    margin-left: -10px;
+    *margin-left: -3%;
+    *zoom: 1
+}
+
+.mod-rankList_col2:before, .mod-rankList_col2:after {
+    content: "";
+    display: table;
+    font: 0/0 a
+}
+
+.mod-rankList_col2:after {
+    clear: both
+}
+
+.mod-rankList_col2 .rankList {
+    float: left;
+    display: inline;
+    width: 50%;
+    padding-left: 10px;
+    box-sizing: border-box;
+    *width: 47%;
+    *padding-left: 3%
+}
+
+.rank_img {
+    height: 101px;
+    margin-bottom: 5px
+}
+
+.rank_img .rankList_link {
+    height: 100%;
+    padding-left: 0
+}
+
+.rank_img .num {
+    top: 0;
+    margin-top: 0;
+    z-index: 10;
+    border-radius: 0 0 2px 0
+}
+
+.rank_img .item_l {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    padding: 0 5px
+}
+
+.mod-header-tab .tab-head {
+    margin-bottom: 5px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #333
+}
+
+.mod-linkTabs {
+    position: relative;
+    width: 172px;
+    height: 31px;
+    padding-right: 43px;
+    margin-left: -15px;
+    overflow: hidden;
+    font-size: 0;
+    *zoom: 1
+}
+
+.mod-linkTabs li {
+    float: left;
+    margin-left: 15px;
+    font-size: 12px;
+    white-space: nowrap;
+    _display: inline
+}
+
+.mod-linkTabs li a {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    padding-bottom: 1px;
+    _position: relative;
+    _bottom: -2px
+}
+
+.mod-linkTabs .selected a {
+    color: #5aa700
+}
+
+.mod-linkTabs .link_tab_more {
+    position: absolute;
+    right: 0;
+    top: 0;
+    *clear: both;
+    *width: 44px;
+    *background-color: #fff;
+    *text-align: center
+}
+
+.qypage-1180 .mod-header-tab {
+    height: 29px;
+    border-bottom: 2px solid #eee;
+    position: relative
+}
+
+.qypage-1180 .mod-header-tab .tab-head {
+    float: left;
+    margin-right: 20px
+}
+
+.qypage-1180 .mod-linkTabs {
+    float: left;
+    width: 218px
+}
+
+.qypage-1180 .mod-linkTabs .selected a {
+    border-bottom: 2px solid #5aa700
+}
+
+.topDesc {
+    font-size: 12px;
+    height: 14px;
+    line-height: 1;
+    margin-top: 10px;
+    display: none
+}
+
+.topDesc_right {
+    float: right;
+    padding-right: 20px
+}
+
+.topDesc_main {
+    overflow: hidden;
+    *zoom: 1
+}
+
+.topDesc_items {
+    margin-left: -5px;
+    padding: 0 10px 0 5px;
+    border-left: 1px dotted #ccc
+}
+
+.qypage-1180 .topDesc {
+    display: block
+}
+
+.header-hotSer {
+    border-bottom: 2px solid #eee;
+    margin-bottom: 6px
+}
+
+.header-hotSer .mod-linkTabs {
+    width: 121px;
+    _width: 118px
+}
+
+.qypage-1180 .header-hotSer .mod-linkTabs {
+    width: 236px
+}
+
+@charset "utf-8";
+.mod_search_result .result_info-180291 {
+    height: 291px
+}
+
+.mod_search_result .result_info-foreshow {
+    height: 236px
+}
+
+a .video_an {
+    background-position: -180px -1340px
+}
+
+.video_an {
+    background: url(//www.iqiyipic.com/common/fix/site/site-icons-v10-20141119.png) no-repeat;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.video_foreshow_Countdown {
+    position: absolute;
+    display: block;
+    left: 17px;
+    bottom: 42px;
+    _bottom: 32px
+}
+
+.v_bg_prevue {
+    position: absolute;
+    background: #000;
+    filter: alpha(opacity=60);
+    opacity: .6;
+    width: 100%;
+    height: 24px;
+    left: 0;
+    top: -24px
+}
+
+.video_cover .icon-video-Play {
+    background: url(//www.iqiyipic.com/common/fix/site/video_advancenotice.png) no-repeat;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-position: 0 0;
+    top: 50%;
+    left: 50%;
+    margin: -40px 0 0 -40px;
+    z-index: 25;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/video_advancenotice.png')
+}
+
+.mod_search_result .result_title .title_year {
+    font-size: 12px;
+    color: #999;
+    margin-left: 9px
+}
+
+.icon-video-Txt {
+    width: 100px;
+    position: absolute;
+    font-size: 16px;
+    color: #fff;
+    top: 158px;
+    left: 51px
+}
+
+.result_site_title_large .result_site_title_more {
+    float: right;
+    font-size: 12px;
+    line-height: 25px;
+    display: none
+}
+
+.mod_result_list .foreshow-countdown {
+    min-height: 266px;
+    _height: 266px
+}
+
+.foreshow-countdown .video_foreshow_Countdown {
+    top: 246px
+}
+
+.mod-discernList {
+    border: 1px solid #dbdbdb;
+    box-shadow: 0 2px 0 #e6e6e6;
+    padding: 10px 14px
+}
+
+.list_item .mod-discernList {
+    margin-left: -200px
+}
+
+.wrapper-discernList {
+    width: 100%
+}
+
+.discernList_keyword .keywordTitle {
+    font-size: 18px
+}
+
+.discernList_keyword .resultSum {
+    font-size: 12px;
+    margin-left: 5px;
+    color: #999
+}
+
+.discernList_filter {
+    border-bottom: 1px solid #eee;
+    padding: 5px 0
+}
+
+.discernList_filter .filterItems {
+    position: relative;
+    padding: 5px 0 5px 25px;
+    font-size: 0
+}
+
+.discernList_filter .filterItems .filter_title {
+    position: absolute;
+    display: inline-block;
+    *zoom: 1;
+    left: 0;
+    _left: -25px;
+    color: #999;
+    font-size: 12px
+}
+
+.discernList_filter .filterItems .filterWords {
+    width: 100%;
+    height: 18px;
+    line-height: 18px;
+    overflow: hidden
+}
+
+.discernList_filter .filterItems .filterWords li {
+    display: inline-block;
+    *display: inline;
+    height: 100%;
+    *zoom: 1;
+    font-size: 12px;
+    vertical-align: middle;
+    margin-left: 20px
+}
+
+.discernList_filter .filterItems .filterWords li a {
+    padding: 0 5px;
+    display: inline-block;
+    vertical-align: top
+}
+
+.discernList_filter .filterItems .filterWords li.selected a {
+    background: #699f00;
+    color: #fff;
+    border-radius: 3px
+}
+
+.discernList_rank {
+    position: relative;
+    padding: 10px 0 10px 45px;
+    font-size: 0
+}
+
+.discernList_rank .rank_title {
+    position: absolute;
+    display: inline-block;
+    *zoom: 1;
+    left: 0;
+    _left: -45px;
+    color: #999;
+    font-size: 12px
+}
+
+.discernList_rank .checkBox-item {
+    font-size: 12px;
+    margin-right: 12px
+}
+
+.discernList_rank .search-checkBox {
+    position: relative;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    padding: 1px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    vertical-align: middle;
+    _vertical-align: -1px;
+    border-radius: 1px;
+    *margin-right: 5px
+}
+
+.discernList_rank .search-checkBox .search-checkBox-inner {
+    position: absolute;
+    display: none;
+    width: 9px;
+    height: 9px;
+    background-color: #699f00;
+    top: 1px;
+    left: 1px;
+    _font-size: 0
+}
+
+.discernList_rank .selected .search-checkBox .search-checkBox-inner {
+    display: inline-block
+}
+
+.discernList_rank .checkBox-item .vm-inline {
+    cursor: pointer
+}
+
+.discernList_filter .filterItems-more {
+    padding-right: 25px
+}
+
+.discernList_filter .filter_more {
+    display: none
+}
+
+.discernList_filter .filterItems-more .filter_more {
+    display: block;
+    position: absolute;
+    right: 0;
+    font-size: 12px
+}
+
+@charset "utf-8";
+.search_result_download {
+    display: inline-block;
+    vertical-align: top
+}
+
+body.qypage-980 .search_result_download {
+    background: url("//www.iqiyipic.com/common/fix/site/app-download-0727-20048.gif") no-repeat 0 0;
+    width: 200px;
+    height: 48px
+}
+
+body.qypage-1180 .search_result_download {
+    background: url("//www.iqiyipic.com/common/fix/site/app-download-0727-32048.gif") no-repeat 0 0;
+    width: 320px;
+    height: 48px
+}
+
+.aside_download {
+    margin-top: 20px
+}
+
+body.qypage-980 .aside_download .search_result_download {
+    background: url("//www.iqiyipic.com/common/fix/site/app-download-0727-28048.gif") no-repeat 0 0;
+    width: 280px;
+    height: 48px
+}
+
+.mod_search_ken {
+    display: inline-block
+}
+
+.mod_ken .ken_title {
+    font-size: 14px;
+    color: #666
+}
+
+.mod_ken .list_item {
+    margin: 10px 0 0;
+    float: left;
+    padding-left: 0
+}
+
+.mod_ken .ken_item {
+    width: 739px;
+    border: 1px solid #dbdbdb;
+    padding: 12px 0 20px 19px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 0 #e6e6e6
+}
+
+.piclist-7070 .site-piclist_pic {
+    width: 70px;
+    height: 70px
+}
+
+.piclist_8080 .site-piclist_pic {
+    width: 80px;
+    height: 80px
+}
+
+.piclist-100100 .site-piclist_pic {
+    width: 100px;
+    height: 100px
+}
+
+.piclist-170223 .site-piclist_pic {
+    width: 170px;
+    height: 223px
+}
+
+.ken_mod_tab {
+    width: 676px;
+    padding-right: 44px;
+    height: 39px;
+    border-bottom: 2px solid #eee;
+    position: relative
+}
+
+.mod_tabBox {
+    width: 676px;
+    height: 41px;
+    overflow: hidden;
+    position: relative;
+    _top: 2px
+}
+
+.mod_tab {
+    width: 10000px;
+    height: 27px;
+    padding-top: 10px;
+    line-height: 27px
+}
+
+.mod_tab li {
+    position: relative;
+    top: 2px;
+    height: 27px;
+    float: left;
+    display: inline;
+    margin-right: 30px;
+    padding: 0 5px;
+    border-bottom: 2px solid #eee
+}
+
+.mod_tab li.selected {
+    border-bottom: 2px solid #7fb52b
+}
+
+.mod_tab li.selected a, .mod_tab li.selected a:hover {
+    color: #7fb52b
+}
+
+.tab_scroll {
+    position: absolute;
+    right: 0;
+    top: 21px;
+    display: block;
+    width: 36px;
+    height: 12px
+}
+
+.tab_scroll a {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    width: 8px;
+    height: 12px;
+    background: url(//www.iqiyipic.com/common/fix/search_result/ken_tabScroll.png) no-repeat
+}
+
+.tab_scroll .pre a {
+    left: 0;
+    background-position: 0 -15px
+}
+
+.tab_scroll .next a {
+    right: 0;
+    background-position: -10px -15px
+}
+
+.tab_scroll .pre a:hover {
+    background-position: 0 -30px
+}
+
+.tab_scroll .next a:hover {
+    background-position: -10px -30px
+}
+
+.tab_scroll .pre .disable, .tab_scroll .pre .disable:hover {
+    background-position: 0 0;
+    cursor: default
+}
+
+.tab_scroll .next .disable, .tab_scroll .next .disable:hover {
+    background-position: -10px 0;
+    cursor: default
+}
+
+.mod_actor {
+    margin-left: -24px;
+    padding-top: 15px
+}
+
+.mod_actor li {
+    float: left;
+    display: inline;
+    margin-left: 24px;
+    width: 100px
+}
+
+.mod_actor .site-piclist_info {
+    padding: 0;
+    padding-top: 8px;
+    margin: 0;
+    margin-bottom: 12px;
+    border: 0;
+    background: #fff;
+    font-size: 12px;
+    color: #999;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    position: relative;
+    word-break: break-all
+}
+
+.mod_actor .actor_name {
+    color: #333
+}
+
+.mod_actor .actor_name:hover {
+    color: #699f00
+}
+
+.mod_ken .mod-page {
+    padding: 6px 19px 0 0
+}
+
+.mod_ken .mod-page a, .mod_ken .mod-page span {
+    height: 24px;
+    line-height: 23px;
+    font-size: 12px;
+    min-width: 26px;
+    _width: 26px
+}
+
+.mod_ken .mod-page a.a1, .mod_ken .mod-page .noPage {
+    width: 53px
+}
+
+.mod_ken .mod-page .curPage {
+    background: #fff;
+    border: 1px solid #fff;
+    color: #699f00;
+    font-size: 14px
+}
+
+.mod_ken .mod-page a:hover {
+    color: #699f00;
+    border-color: #699f00;
+    background: #fff;
+    text-decoration: none
+}
+
+.mod_ken .ken_item_folk {
+    padding-bottom: 0
+}
+
+.folk_arrows {
+    width: 100px;
+    height: 152px
+}
+
+.ken_folk {
+    padding-top: 34px;
+    padding-bottom: 3px;
+    width: 90px;
+    margin: 0 auto;
+    text-align: center;
+    color: #699f00;
+    background: url(//www.iqiyipic.com/common/fix/search_result/ken_folk.png) no-repeat bottom right
+}
+
+.rela_info_txt {
+    width: 720px;
+    min-height: 16px;
+    _height: 16px;
+    padding: 12px 19px;
+    margin-left: -19px;
+    background: #fafafa;
+    color: #7a7a7a;
+    line-height: 16px
+}
+
+.rela_txt_tit, .rela_txt_des {
+    font-size: 12px
+}
+
+.rela_txt_tit {
+    color: #699f00
+}
+
+.oh-w719 {
+    overflow: hidden;
+    position: relative;
+    width: 719px
+}
+
+.mod_actor_edition {
+    width: 732px;
+    border-bottom: 2px solid #ddd;
+    padding-top: 15px;
+    margin-right: 13px
+}
+
+.mod_teleplay_edition {
+    width: 5000px;
+    padding-top: 15px;
+    margin-left: -13px
+}
+
+.mod_teleplay_edition li {
+    float: left;
+    padding-left: 13px;
+    display: inline
+}
+
+.mod_actor_edition li {
+    float: left;
+    display: inline;
+    margin-right: 13px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 12px;
+    position: relative;
+    top: 2px
+}
+
+.tip_t {
+    display: none
+}
+
+.mod_actor_edition li.hover .tip_t {
+    display: inline-block;
+    width: 9px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    margin-left: -9px;
+    bottom: -3px
+}
+
+.mod_actor_edition li.hover .tip_t .tip_inner, .tip_t .tip_outer {
+    border: 8px dashed transparent
+}
+
+.mod_actor_edition li.hover .tip_inner, .tip_outer {
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    font-size: 0
+}
+
+.mod_actor_edition li.hover .tip_t .tip_inner {
+    border-bottom: 8px solid #fff;
+    bottom: -3px
+}
+
+.mod_actor_edition li.hover .tip_t .tip_outer {
+    border-bottom: 7px solid #699f00
+}
+
+.mod_actor_edition li.hover {
+    border-bottom: 2px solid #699f00
+}
+
+.mod_actor_edition li.last {
+    margin-right: 0
+}
+
+.site-desc_r {
+    width: 80px;
+    height: 60px;
+    padding: 5px 10px;
+    background: #f2f2f2;
+    font-size: 12px
+}
+
+.site-desc_r .actor_name {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.teleplay_desc {
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 2px;
+    color: #999;
+    line-height: 13px
+}
+
+.ken-piclist-scroll {
+    height: 228px;
+    width: 719px;
+    overflow: hidden;
+    position: relative
+}
+
+.mod_teleplay_edition {
+    height: 223px;
+    padding-top: 12px
+}
+
+.mod_teleplay_edition .textOverflow {
+    text-align: center
+}
+
+.mod_teleplay_edition .wrapper-listTitle {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 2px
+}
+
+.ken-piclist-scroll .piclist_btnLeft, .ken-piclist-scroll .piclist_btnRight {
+    top: 92px
+}
+
+.ken-piclist-scroll .piclist_btnLeft {
+    left: 0
+}
+
+.ken-piclist-scroll .piclist_btnRight {
+    right: 0
+}
+
+.ken-piclist-scroll .piclist_btnLeft, .ken-piclist-scroll .piclist_btnRight {
+    position: absolute;
+    width: 25px;
+    height: 44px;
+    z-index: 100
+}
+
+.ken-piclist-scroll .piclist_btnRight a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR.png");
+    _background: 0
+}
+
+.ken-piclist-scroll .piclist_btnLeft a {
+    display: block;
+    width: 25px;
+    height: 44px;
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL.png");
+    _background: 0
+}
+
+.ken-piclist-scroll .piclist_btnLeft a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-a.png");
+    _background: 0
+}
+
+.ken-piclist-scroll .piclist_btnRight a:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-a.png");
+    _background: 0
+}
+
+.ken-piclist-scroll .piclist_btnLeft .disabled, .ken-piclist-scroll .piclist_btnLeft .disabled:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-v.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrL-v.png");
+    _background: 0;
+    cursor: default
+}
+
+.ken-piclist-scroll .piclist_btnRight .disabled, .ken-piclist-scroll .piclist_btnRight .disabled:hover {
+    background: url(//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-v.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/v3_play_images/p-arrR-v.png");
+    _background: 0;
+    cursor: default
+}
+
+.mod_ken .site-piclist_pic_link:hover .video_cover {
+    display: block
+}
+
+.ken_side_bg li {
+    float: left;
+    width: 80px;
+    display: inline
+}
+
+.qypage-1180 .ken_side {
+    margin-left: -20px
+}
+
+.qypage-1180 .ken_side_bg li {
+    margin-left: 20px
+}
+
+.ken-oh {
+    overflow: hidden;
+    position: relative
+}
+
+.qypage-1180 .ken-oh {
+    height: 268px
+}
+
+.qypage-980 .ken_side {
+    margin-left: -18px
+}
+
+.qypage-980 .ken_side_bg li {
+    margin-left: 17px
+}
+
+.qypage-980 .ken-oh {
+    height: 402px
+}
+
+.ken_side_bg .result_site_title_large {
+    position: relative
+}
+
+.ken_pu {
+    position: absolute;
+    top: 15px;
+    right: 0;
+    _right: 20px;
+    font-size: 12px;
+    color: #333
+}
+
+.ken_pu p {
+    cursor: pointer;
+    padding-right: 17px;
+    background: url(//www.iqiyipic.com/common/fix/search_result/ken_sh.png) no-repeat
+}
+
+.ken_pu .packup {
+    background-position: 28px 5px;
+    *background-position: 28px 3px;
+    _background-position: 28px 5px
+}
+
+.ken_pu .unfold {
+    background-position: 28px -26px;
+    *background-position: 28px -28px;
+    _background-position: 28px -26px
+}
+
+.ken_packup .packup {
+    display: block
+}
+
+.ken_unfold .packup {
+    display: none
+}
+
+.ken_unfold .unfold {
+    display: block
+}
+
+.ken_packup .unfold {
+    display: none
+}
+
+.mod_tvLive {
+    margin-top: 20px;
+    padding-bottom: 20px
+}
+
+.tl_title {
+    height: 25px;
+    line-height: 25px
+}
+
+.tl_tvIcon {
+    display: block;
+    float: left;
+    display: inline;
+    margin-right: 10px;
+    height: 25px
+}
+
+.tl_more {
+    float: left;
+    margin-left: 15px;
+    display: inline;
+    margin-top: 1px
+}
+
+.mod_tvLive .scrollBar {
+    cursor: pointer
+}
+
+.mod_search_result .mod_tvLive .play_source {
+    margin-top: 0
+}
+
+.mod_tvLive .newList-wrap {
+    width: 740px
+}
+
+.mod_tvLive .program_title {
+    width: 550px
+}
+
+.mod_tvLive .result_tab_list {
+    width: 10000px
+}
+
+.tl_title-tab {
+    width: 100%;
+    height: 29px;
+    overflow: hidden;
+    position: relative
+}
+
+@charset "utf-8";
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 1000
+}
+
+.mod-pop {
+    padding: 2px;
+    background-color: #e9e9e9
+}
+
+.mod-pop .close {
+    position: absolute;
+    top: 16px;
+    right: 10px;
+    width: 14px;
+    height: 14px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/btn-close.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/search_images/btn-close.png");
+    _background: 0
+}
+
+.mod-pop .close:hover {
+    background: url(//www.iqiyipic.com/common/fix/search_images/btn-close-h.png) no-repeat;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled="true", sizingMethod="scale", src="//www.iqiyipic.com/common/fix/search_images/btn-close-h.png");
+    _background: 0
+}
+
+.mod-pop .pop_inner {
+    border: 1px solid #dbdbdb;
+    background-color: #fff
+}
+
+.mod-pop .pop_tit {
+    width: 508px;
+    height: 40px;
+    background-color: #f2f2f2;
+    line-height: 40px;
+    text-indent: 20px;
+    color: #333
+}
+
+.mod-pop .feedback {
+    width: 448px;
+    padding: 20px 30px 30px
+}
+
+.problemList {
+    margin-left: -5px;
+    margin-top: -5px
+}
+
+.problemList li {
+    float: left;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    _display: inline
+}
+
+.problemList a {
+    float: left;
+    height: 30px;
+    padding: 0 9px;
+    border: 1px solid #e3e3e3;
+    background-color: #fff;
+    border-radius: 3px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #5aa700
+}
+
+.problemList a:hover, .problemList a:focus, .problemList a.selected {
+    border: 1px solid #5aa700;
+    background-color: #5aa700;
+    color: #fff
+}
+
+.mod-pop .tle {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 32px;
+    color: #000
+}
+
+.mod-pop .succ_info {
+    width: 228px;
+    padding: 58px 71px 30px
+}
+
+.succ_txt {
+    height: 91px;
+    padding-left: 102px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/fb_suc.png) 33px 0 no-repeat
+}
+
+.succ_txt dt {
+    font-size: 18px;
+    line-height: 28px;
+    color: #5aa700
+}
+
+.succ_txt dd {
+    font-size: 12px;
+    line-height: 34px;
+    color: #999
+}
+
+@charset "utf-8";
+.form_item {
+    width: 100%
+}
+
+.textarea-block {
+    display: block;
+    width: 97%;
+    padding: 1%;
+    height: 68px;
+    border: 1px solid #ddd;
+    color: #666;
+    font-size: 12px
+}
+
+.input-block {
+    display: block;
+    width: 97%;
+    padding: 0 1%;
+    height: 34px;
+    line-height: 34px \9;
+    border: 1px solid #ddd;
+    color: #666;
+    font-size: 12px
+}
+
+.btn_normal {
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    background-color: #5aa700;
+    border-radius: 3px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    outline: 0
+}
+
+.btn_normal:hover {
+    background-color: #63b700;
+    color: #fff
+}
+
+.btn_normal:active {
+    background-color: #56a000;
+    color: #fff
+}
+
+@charset "utf-8";
+.result-timeline-150505 {
+    width: 760px
+}
+
+.timeline-video {
+    width: 450px;
+    padding-bottom: 10px;
+    overflow: hidden
+}
+
+.timeline-video ul {
+    width: 450px;
+    height: 253px;
+    overflow: hidden;
+    position: relative
+}
+
+.ti-vi-segment {
+    position: relative;
+    display: none;
+    width: 450px;
+    height: 253px;
+    overflow: hidden
+}
+
+.ti-vi-active {
+    display: block
+}
+
+.ti-vi-seg-desc {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    _bottom: -1px;
+    width: 441px;
+    height: 30px;
+    padding-left: 9px;
+    line-height: 30px
+}
+
+.ti-vi-seg-desc-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 450px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    filter: alpha(opacity=50);
+    background: #000
+}
+
+.ti-vi-seg-desc p {
+    position: relative;
+    color: #fff
+}
+
+.timeline-desc {
+    position: relative;
+    width: 293px;
+    margin-left: 16px;
+    _margin-left: 15px;
+    border-left: 1px solid #eee
+}
+
+.timeline-desc-patch1, .timeline-desc-patch2 {
+    position: absolute;
+    left: -5px;
+    width: 10px;
+    height: 20px;
+    background: #fff
+}
+
+.timeline-desc-patch1 {
+    top: 0
+}
+
+.timeline-desc-patch2 {
+    bottom: 0
+}
+
+.timeline-desc ul {
+    width: 276px;
+    padding-left: 18px
+}
+
+.ti-de-segment {
+    position: relative;
+    width: 276px;
+    height: 42px;
+    border-bottom: 1px dashed #eee;
+    line-height: 42px;
+    font-size: 12px
+}
+
+.ti-de-segment p {
+    width: 276px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.ti-de-seg-icon {
+    position: absolute;
+    top: 19px;
+    left: -21px;
+    width: 6px;
+    height: 6px;
+    background: url(//pic5.iqiyipic.com/common/20150506/iqiyichupin_images/tlineico150505.png) 0 -34px no-repeat
+}
+
+.ti-de-segment-active a {
+    color: #699f00
+}
+
+.ti-de-segment-active .ti-de-seg-icon, .ti-de-segment-more .ti-de-seg-icon {
+    top: 14px;
+    left: -26px;
+    width: 16px;
+    height: 16px
+}
+
+.ti-de-segment-active .ti-de-seg-icon {
+    background-position: 0 0
+}
+
+.ti-de-segment-more .ti-de-seg-icon {
+    background-position: 0 -17px
+}
+
+.ti-de-segment-more {
+    border-bottom: 0
+}
+
+.lh44 {
+    line-height: 44px
+}
+
+.guess-seach {
+    width: 735px;
+    height: 36px;
+    padding: 10px 0 0 25px;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: url(//pic2.iqiyipic.com/common/20150518/v3_play_images/guessicon150515.png) 0 11px no-repeat;
+    _background: url(//pic2.iqiyipic.com/common/20150518/v3_play_images/guessicon150515_03.gif) 0 11px no-repeat
+}
+
+.guess-seach a {
+    color: #699f00;
+    padding-right: 13px
+}
+
+.mod_search_result .list-item-bbn {
+    border-bottom: 0;
+    width: 720px;
+    border: 1px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 15px 19px 20px
+}
+
+.search-star-map .seastar-map-con {
+    width: 572px;
+    padding-left: 148px;
+    border-bottom: 0
+}
+
+.search-star-map .figure-180236 {
+    width: 130px;
+    height: 170px;
+    left: 19px;
+    top: 20px
+}
+
+.search-star-map .figure-180236 img {
+    width: 130px;
+    height: 170px
+}
+
+.search-star-map .seastar-map-info {
+    height: 170px
+}
+
+.seastar-map-info .result-title20150515 {
+    margin-bottom: 12px
+}
+
+.result-title20150515 span {
+    font-size: 12px
+}
+
+.map-info-item {
+    width: 572px;
+    height: 22px
+}
+
+.seastar-map-info .map-info-item-profile {
+    width: 572px;
+    height: 40px;
+    padding: 4px 0 3px
+}
+
+.map-info-item-profile .result_info_txt {
+    line-height: 18px;
+    color: #999
+}
+
+.result-option .link_tab_list {
+    margin-right: 28px
+}
+
+.result-option-tabs {
+    margin-top: 11px
+}
+
+.result-option-preview {
+    width: 718px
+}
+
+.result-option-preview .result-option-figure li {
+    width: 130px
+}
+
+.result-option-figure li {
+    margin-left: 17px
+}
+
+.result-option-figure .wrapper-listTitle {
+    width: 124px
+}
+
+.result-option-figure .reop-figure-first {
+    margin-left: 26px
+}
+
+.result-option-preview .mod_figure .preview_figure, .result-option-preview .mod_figure .preview_figure img {
+    width: 130px;
+    height: 170px
+}
+
+.result-option-preview .result-option-figure .preview_title-short {
+    height: 32px;
+    text-overflow: clip;
+    white-space: normal
+}
+
+.result_tab_content-hidden {
+    display: none
+}
+
+.result-option-preview2 {
+    height: 126px
+}
+
+.result-option-preview2 .mod_figure .preview_figure, .result-option-preview2 .mod_figure .preview_figure img {
+    width: 130px;
+    height: 73px
+}
+
+.result-option-preview2 .figures_btnLeft, .result-option-preview2 .figures_btnRight {
+    top: 15px
+}
+
+.result-option-preview2 .mod_figure {
+    height: 126px
+}
+
+.hostvariety {
+    width: 130px;
+    height: 22px;
+    text-align: center
+}
+
+.preview_title-score a {
+    float: left;
+    width: 130px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.preview_title-score span {
+    float: right;
+    width: 34px;
+    font-size: 14px;
+    text-align: right;
+    color: #ff722c
+}
+
+.seastar-map-info .info_item_bottom {
+    bottom: 5px
+}
+
+.search-twostar-map {
+    width: 720px;
+    border: 1px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
+    padding: 0 19px 20px
+}
+
+.twostar-relation {
+    width: 720px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px dashed #ddd
+}
+
+.twostar-relation-bbn {
+    border-bottom: 0
+}
+
+.twostar-title {
+    width: 720px;
+    height: 29px;
+    font-size: 14px;
+    line-height: 14px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.twostar-option {
+    width: 720px
+}
+
+.twostar-con {
+    width: 295px;
+    height: 122px
+}
+
+.twostar-info {
+    width: 295px;
+    height: 100px;
+    background: #f2f2f2
+}
+
+.twostar-info-img, .twostar-info-img img {
+    width: 100px;
+    height: 100px
+}
+
+.twostar-info-profile {
+    width: 180px;
+    height: 78px;
+    padding: 10px 0 12px 15px
+}
+
+.twostar-info-profile p {
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.tsinfo-profile-name {
+    height: 26px;
+    line-height: 14px
+}
+
+.tsinfo-profile-birth, .tsinfo-profile-hw {
+    height: 20px;
+    line-height: 12px
+}
+
+.tsinfo-profile-details {
+    height: 12px;
+    line-height: 12px
+}
+
+.twostar-name {
+    width: 144px;
+    height: 12px;
+    padding: 10px 0 0 36px;
+    line-height: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.twostar-connect {
+    width: 100px;
+    height: 27px;
+    margin: 30px 15px 65px;
+    background: url(//pic0.iqiyipic.com/common/20150529/onetree-images/connect0527.png) no-repeat 0 bottom;
+    text-align: center;
+    line-height: 12px
+}
+
+.twostar-preview {
+    width: 718px;
+    height: 136px
+}
+
+.twostar-mod-figure {
+    height: 136px;
+    margin-left: -17px;
+    overflow: hidden
+}
+
+.twostar-mod-figure li {
+    width: 130px;
+    height: 100%;
+    margin-left: 17px
+}
+
+.twostar-mod-figure .twostar-preview-figure, .twostar-mod-figure .twostar-preview-figure img {
+    width: 130px;
+    height: 73px
+}
+
+.twostar-preview-title {
+    height: 38px;
+    margin: 6px 0;
+    line-height: 18px;
+    font-size: 12px;
+    overflow: hidden
+}
+
+.twostar-preview-time {
+    height: 12px;
+    line-height: 12px
+}
+
+.star-connect-map {
+    position: relative
+}
+
+.qypage-1180 .star-connect-map {
+    width: 320px;
+    height: 338px;
+    background: url(//www.iqiyipic.com/common/fix/onetree-images/twostarbg1180.png) no-repeat 70px 67px
+}
+
+.qypage-980 .star-connect-map {
+    width: 200px;
+    height: 238px;
+    background: url(//www.iqiyipic.com/common/fix/onetree-images/twostarbg980.png) no-repeat 50px 48px
+}
+
+.star-connect-item {
+    position: absolute
+}
+
+.qypage-1180 .star-connect-item {
+    width: 76px;
+    height: 98px
+}
+
+.qypage-980 .star-connect-item {
+    width: 56px;
+    height: 72px
+}
+
+.qypage-1180 .stco-item-oneself {
+    top: 109px;
+    left: 120px
+}
+
+.qypage-1180 .stco-item-one {
+    top: -3px;
+    left: 55px
+}
+
+.qypage-1180 .stco-item-two {
+    top: -3px;
+    left: 191px
+}
+
+.qypage-1180 .stco-item-three {
+    top: 225px;
+    left: 55px
+}
+
+.qypage-1180 .stco-item-four {
+    top: 225px;
+    left: 191px
+}
+
+.qypage-1180 .stco-item-five {
+    top: 110px;
+    left: 0
+}
+
+.qypage-1180 .stco-item-six {
+    top: 110px;
+    right: 0
+}
+
+.qypage-980 .stco-item-oneself {
+    top: 70px;
+    left: 65px
+}
+
+.qypage-980 .stco-item-one {
+    top: -3px;
+    left: 27px
+}
+
+.qypage-980 .stco-item-two {
+    top: -3px;
+    left: 117px
+}
+
+.qypage-980 .stco-item-three {
+    top: 157px;
+    left: 27px
+}
+
+.qypage-980 .stco-item-four {
+    top: 157px;
+    left: 117px
+}
+
+.qypage-980 .stco-item-five {
+    top: 76px;
+    left: 0
+}
+
+.qypage-980 .stco-item-six {
+    top: 76px;
+    right: 0
+}
+
+.stco-item-img, .stco-item-img-oneself {
+    position: relative;
+    display: block;
+    margin: 3px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden;
+    font-size: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC)
+}
+
+.qypage-1180 .stco-item-img, .qypage-1180 .stco-item-img img {
+    width: 70px;
+    height: 70px
+}
+
+.qypage-980 .stco-item-img, .qypage-980 .stco-item-img img {
+    width: 50px;
+    height: 50px
+}
+
+.qypage-1180 .stco-item-img-oneself, .qypage-1180 .stco-item-img-oneself img {
+    width: 74px;
+    height: 74px
+}
+
+.qypage-980 .stco-item-img-oneself, .qypage-980 .stco-item-img-oneself img {
+    width: 64px;
+    height: 64px
+}
+
+.stco-item-img:hover, .stco-item-img-oneself:hover {
+    border: 3px solid #5aa700;
+    margin: 0
+}
+
+.stco-item-name, .stco-item-oneself-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden
+}
+
+.sci-name-bg, .sci-oneself-name-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    _bottom: -1px;
+    background: #000;
+    filter: alpha(opacity=50);
+    opacity: .5
+}
+
+.qypage-1180 .stco-item-name, .qypage-1180 .sci-name-bg {
+    width: 70px;
+    height: 19px;
+    line-height: 19px
+}
+
+.qypage-980 .stco-item-name, .qypage-980 .sci-name-bg {
+    width: 50px;
+    height: 18px;
+    line-height: 18px
+}
+
+.qypage-1180 .stco-item-oneself-name, .qypage-1180 .sci-oneself-name-bg {
+    width: 74px;
+    height: 20px;
+    line-height: 20px
+}
+
+.qypage-980 .stco-item-oneself-name, .qypage-980 .sci-oneself-name-bg {
+    width: 64px;
+    height: 18px;
+    line-height: 18px
+}
+
+.sci-name-con, .sci-oneself-name-con {
+    position: relative;
+    width: 36px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.stco-item-info {
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #999
+}
+
+.qypage-1180 .stco-item-info {
+    width: 76px;
+    height: 22px;
+    line-height: 22px
+}
+
+.qypage-980 .stco-item-info {
+    width: 56px;
+    height: 16px;
+    line-height: 16px
+}
+
+.piclist-0527 {
+    max-height: 405px
+}
+
+.piclist-0527 .piclist_info2 {
+    margin-top: 1px
+}
+
+.piclist-0527 .piclist_img, .piclist-0527 .piclist_img img {
+    width: 80px;
+    height: 80px
+}
+
+.result-search-shortnews {
+    width: 727px;
+    border: 1px solid #dbdbdb;
+    border-bottom: 3px solid #dbdbdb;
+    padding: 15px 15px 14px 14px;
+    overflow: hidden;
+    font-size: 12px
+}
+
+.rese-shortnews-info {
+    position: relative;
+    width: 262px;
+    height: 253px;
+    padding-left: 15px;
+    overflow: hidden
+}
+
+.shortnews-info-title {
+    width: 262px;
+    height: 28px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: 28px
+}
+
+.shortnews-info-profile {
+    width: 262px;
+    height: 71px;
+    padding: 15px 0 20px;
+    overflow: hidden;
+    line-height: 20px
+}
+
+.shortnews-info-type {
+    width: 262px;
+    height: 28px;
+    overflow: hidden;
+    line-height: 20px
+}
+
+.shortnews-info-type-btn {
+    padding: 0 7px;
+    border: 1px solid #e7e7e7;
+    margin: 0 5px 0 0;
+    background: #fff;
+    color: #333;
+    font-size: 12px;
+    line-height: 18px
+}
+
+.shortnews-info-tag {
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 262px;
+    height: 72px;
+    overflow: hidden
+}
+
+.shortnews-info-tag-btn {
+    float: left;
+    height: 16px;
+    padding: 3px 10px 5px;
+    margin: 10px 5px 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 25px;
+    background: #fff
+}
+
+.shortnews-info-tag-btn:hover {
+    border: 1px solid #699f00;
+    background: #699f00;
+    color: #fff
+}
+
+.rese-shortnews-video {
+    width: 727px
+}
+
+.rese-shortnews-video .mod_figures_preview {
+    width: 726px
+}
+
+.mod_figure-shortnews {
+    width: 745px;
+    height: 120px;
+    margin-left: 0
+}
+
+.mod_figure-shortnews li {
+    position: relative;
+    display: inline;
+    float: left;
+    width: 130px;
+    height: 100%;
+    margin-right: 19px
+}
+
+.mod_figure-shortnews .mr0 {
+    margin-right: 0
+}
+
+.rese-shortnews-video .preview-figure-shortnews {
+    position: relative;
+    display: block
+}
+
+.rese-shortnews-video .preview-figure-shortnews, .rese-shortnews-video .preview-figure-shortnews img {
+    width: 130px;
+    height: 73px
+}
+
+.wrapper-title-shortnews {
+    position: relative;
+    width: 130px;
+    height: 24px;
+    padding: 9px 0 0;
+    margin-top: -33px;
+    _margin-top: -32px;
+    cursor: pointer;
+    background: url(//www.iqiyipic.com/common/fix/site/titleBg-normal-130.png) no-repeat left bottom;
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/site/titleBg-normal-130.png')
+}
+
+.shortnews-listTitle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 0 5px;
+    line-height: 24px;
+    color: #fff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    filter: alpha(opacity=50);
+    background: #000
+}
+
+.shortnews-listTitle-con {
+    position: relative
+}
+
+.preview_info-shortnews {
+    width: 130px;
+    height: 36px;
+    padding-top: 10px;
+    font-size: 12px;
+    line-height: 18px;
+    overflow: hidden
+}
+
+.appearTime {
+    width: 128px;
+    height: 18px;
+    border: 1px solid #699f00;
+    border-radius: 3px;
+    margin-top: 7px;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #699f00
+}
+
+.same-name-star {
+    background-color: #f2f2f2
+}
+
+.sn-star-tit {
+    height: 46px;
+    line-height: 46px;
+    color: #333;
+    text-indent: 15px
+}
+
+.sn-star-con {
+    padding: 0 18px 20px;
+    margin-left: -10px
+}
+
+.sn-star-con ul {
+    height: 150px;
+    overflow: hidden
+}
+
+.sn-star-option {
+    float: left;
+    width: 128px;
+    height: 150px;
+    margin-left: 10px;
+    _display: inline
+}
+
+.sn-star-placard {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    overflow: hidden
+}
+
+.sn-star-placard img {
+    width: 80px;
+    height: 80px
+}
+
+.sn-star-name, .sn-star-des {
+    width: 128px;
+    height: 14px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.sn-star-name {
+    padding: 14px 0 8px
+}
+
+.sn-star-des {
+    color: #999
+}
+
+.sn-change {
+    width: 100%;
+    height: 16px;
+    text-align: center
+}
+
+.sn-change a {
+    font-size: 14px;
+    line-height: 16px
+}
+
+.sn-change i {
+    position: relative;
+    top: 2px;
+    left: 3px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border: 5px dashed transparent;
+    border-top: 5px solid #666
+}
+
+.sn-change a:hover i {
+    border-top-color: #7fb52b
+}
+
+.sn-show ul {
+    height: auto
+}
+
+.sn-show .sn-change i {
+    top: -3px;
+    border: 5px dashed transparent;
+    border-bottom: 5px solid #666
+}
+
+.sn-show .sn-change a:hover i {
+    border-color: transparent;
+    border-bottom-color: #7fb52b
+}
+
+.pop-wrap {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 4845;
+    width: 100%;
+    height: 100%
+}
+
+.popBg {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .5;
+    filter: alpha(opacity=50)
+}
+
+.pop-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -117px;
+    margin-left: -200px;
+    width: 400px;
+    height: 235px;
+    border-bottom: 2px solid #e6e6e6
+}
+
+.pop-payRemind {
+    width: 398px;
+    height: 233px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    text-align: center;
+    color: #333
+}
+
+.payRemind-close {
+    height: 33px;
+    padding-top: 16px;
+    padding-right: 16px
+}
+
+.payRemind-close a {
+    float: right;
+    width: 14px;
+    height: 14px;
+    background: url(//www.iqiyipic.com/common/fix/search_images/btn-close.png);
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/search_images/btn-close.png')
+}
+
+.payRemind-close a:hover {
+    background: url(//www.iqiyipic.com/common/fix/search_images/btn-close-h.png);
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/search_images/btn-close-h.png')
+}
+
+.pay-movie {
+    width: 368px;
+    height: 20px;
+    margin: 0 auto;
+    line-height: 20px;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.pay-des {
+    height: 40px;
+    line-height: 40px
+}
+
+.pay-des-details {
+    height: 18px;
+    padding: 6px 0;
+    line-height: 18px
+}
+
+.pay-des-details i {
+    margin-left: 10px;
+    margin-right: 5px;
+    vertical-align: top
+}
+
+.btn-free {
+    display: inline-block;
+    width: 120px;
+    height: 36px;
+    margin-top: 24px;
+    background-color: #5aa700;
+    border-radius: 3px;
+    line-height: 36px;
+    text-align: center;
+    color: #fff
+}
+
+.btn-free:hover {
+    background-color: #63b700;
+    color: #fff
+}
+
+.checkBox {
+    position: absolute;
+    bottom: 11px;
+    right: 0;
+    width: 64px;
+    height: 14px;
+    padding-left: 21px;
+    line-height: 14px;
+    font-size: 12px;
+    color: #999;
+    text-align: left
+}
+
+.checkBox i, .checkBox input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px
+}
+
+.checkBox i {
+    background: url(//www.iqiyipic.com/common/fix/search_images/btn-checkbox.png);
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/search_images/btn-checkbox.png')
+}
+
+.checkBox input {
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+.box-checked i {
+    background: url(//www.iqiyipic.com/common/fix/search_images/btn-checkbox-c.png);
+    _background: 0;
+    _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='//www.iqiyipic.com/common/fix/search_images/btn-checkbox-c.png')
+}
