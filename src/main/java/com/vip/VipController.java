@@ -62,8 +62,8 @@ public class VipController {
             } else if ("iqiyi".equals(type)) {
                 result = result.split("<!-- 搜索内容 -->")[1].split("<!-- 侧边结构 -->")[0];
                 result = result.replace("href=\"/so/q_", "href=\"http://so.iqiyi.com/so/q_");
-                result = result.replace("src=\"            //pic", "src=\"/feipeng-ps/vip-IQYImg?url=http://pic");
-                result = result.replace("src=\"//pic", "src=\"/feipeng-ps/vip-IQYImg?url=http://pic");
+                result = result.replace("src=\"            //pic", "src=\"/vip/vip-IQYImg?url=http://pic");
+                result = result.replace("src=\"//pic", "src=\"/vip/vip-IQYImg?url=http://pic");
             } else if ("qq".equals(type)) {
                 int start = result.indexOf("<div class=\"wrapper\">");
                 int end = result.indexOf("<div class=\"wrapper_main none\"");
@@ -79,6 +79,9 @@ public class VipController {
             result = result.replace("href=\"http://www.iqiyi.com", "href=\"javascript:void(0);\" data-type=\"go-vip\" data-url=\"http://www.iqiyi.com");
             result = result.replace("href=\"http://v.qq.com", "href=\"javascript:void(0);\" data-type=\"go-vip\" data-url=\"http://v.qq.com");
             result = result.replace("href=\"https://v.qq.com", "href=\"javascript:void(0);\" data-type=\"go-vip\" data-url=\"https://v.qq.com");
+            result = result.replace("href=\"https://v.youku.com", "href=\"javascript:void(0);\" data-type=\"go-vip\" data-url=\"https://v.youku.com");
+            result = result.replace("href=\"https://www.mgtv.com", "href=\"javascript:void(0);\" data-type=\"go-vip\" data-url=\"https://www.mgtv.com");
+            result = result.replace("href=\"https://www.iqiyi.com", "href=\"javascript:void(0);\" data-type=\"go-vip\" data-url=\"https://www.iqiyi.com");
             return result;
         } catch (Exception e) {
             return "";
